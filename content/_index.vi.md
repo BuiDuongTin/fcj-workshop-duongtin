@@ -52,9 +52,9 @@ chapter: false
 <div class="student-profile">
   <div class="student-info">
     <h3>Thông tin sinh viên:</h3>
-    <p><strong>Họ và tên:</strong> Lê Việt Hải Đăng</p>
-    <p><strong>Số điện thoại:</strong> 0854084697</p>
-    <p><strong>Email:</strong> <a href="mailto:Leviethaidang061104@gmail.com">Leviethaidang061104@gmail.com</a></p>
+      <p><strong>Họ và tên:</strong> Bùi Dương Tín</p>
+    <p><strong>Số điện thoại:</strong> 0879717049</p>
+    <p><strong>Email:</strong> <a href="mailto:duongtin.work@gmail.com">duongtin.work@gmail.com</a></p>
     <p><strong>Trường:</strong> Đại học Công nghệ TP.HCM - HUTECH</p>
     <p><strong>Ngành:</strong> Công nghệ thông tin</p>
     <p><strong>Lớp:</strong> 22DTHC5</p>
@@ -63,7 +63,8 @@ chapter: false
     <p><strong>Thời gian thực tập:</strong> Từ ngày 17/04/2026 đến ngày 10/07/2026</p>
   </div>
   <div class="student-photo">
-    <img src="/fcj-workshop-haidang/images/avatar.jpg" alt="Ảnh đại diện Lê Việt Hải Đăng">
+    <img src="/fcj-workshop-tin/images/avatar.jpg" alt="Bùi Dương Tín profile photo">
+  </div>
   </div>
 </div>
 
