@@ -63,7 +63,7 @@ chapter: false
     <p><strong>Thời gian thực tập:</strong> Từ ngày 17/04/2026 đến ngày 10/07/2026</p>
   </div>
   <div class="student-photo">
-    <img src="/fcj-workshop-tin/images/avatar.jpg" alt="Bùi Dương Tín profile photo">
+    <img src="/fcj-workshop-duongtin/images/avatar.jpg" alt="Bùi Dương Tín profile photo">
   </div>
   </div>
 </div>
