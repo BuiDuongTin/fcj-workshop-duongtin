@@ -25,7 +25,7 @@ Find the log groups for the ECS services and related Lambda function. Review log
 - `notification-worker`
 - Lambda PostConfirmation
 
-![CloudWatch log groups](/fcj-workshop-haidang/images/5-Workshop/hashop-test-cleanup/image9.png)
+![CloudWatch log groups](/fcj-workshop-duongtin/images/5-Workshop/hashop-test-cleanup/image9.png)
 
 Expected result:
 

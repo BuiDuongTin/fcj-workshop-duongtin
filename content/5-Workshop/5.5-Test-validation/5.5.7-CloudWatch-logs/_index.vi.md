@@ -25,7 +25,7 @@ Tìm log group của các ECS service và Lambda liên quan. Kiểm tra log củ
 - `notification-worker`
 - Lambda PostConfirmation
 
-![CloudWatch log groups](/fcj-workshop-haidang/images/5-Workshop/hashop-test-cleanup/image9.png)
+![CloudWatch log groups](/fcj-workshop-duongtin/images/5-Workshop/hashop-test-cleanup/image9.png)
 
 Kết quả mong đợi:
 

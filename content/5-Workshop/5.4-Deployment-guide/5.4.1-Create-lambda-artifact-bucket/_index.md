@@ -52,4 +52,4 @@ aws s3api put-bucket-encryption `
   --server-side-encryption-configuration "file://$SSE_CONFIG"
 ```
 
-![Create Lambda artifact bucket](/fcj-workshop-haidang/images/5-Workshop/hashop-deployment/image1.png)
+![Create Lambda artifact bucket](/fcj-workshop-duongtin/images/5-Workshop/hashop-deployment/image1.png)

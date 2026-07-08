@@ -52,9 +52,9 @@ chapter: false
 <div class="student-profile">
   <div class="student-info">
     <h3>Student Information:</h3>
-    <p><strong>Full Name:</strong> Lê Việt Hải Đăng</p>
-    <p><strong>Phone Number:</strong> 0854084697</p>
-    <p><strong>Email:</strong> <a href="mailto:Leviethaidang061104@gmail.com">Leviethaidang061104@gmail.com</a></p>
+    <p><strong>Full Name:</strong> Bùi Dương Tín</p>
+    <p><strong>Phone Number:</strong> 0879717049</p>
+    <p><strong>Email:</strong> <a href="mailto:duongtin.work@gmail.com">duongtin.work@gmail.com</a></p>
     <p><strong>University:</strong> Ho Chi Minh City University of Technology - HUTECH</p>
     <p><strong>Major:</strong> Information Technology</p>
     <p><strong>Class:</strong> 22DTHC5</p>
@@ -63,7 +63,7 @@ chapter: false
     <p><strong>Internship Duration:</strong> From 17/04/2026 to 10/07/2026</p>
   </div>
   <div class="student-photo">
-    <img src="/fcj-workshop-haidang/images/avatar.jpg" alt="Lê Việt Hải Đăng profile photo">
+    <img src="/fcj-workshop-tin/images/avatar.jpg" alt="Bùi Dương Tín profile photo">
   </div>
 </div>
 

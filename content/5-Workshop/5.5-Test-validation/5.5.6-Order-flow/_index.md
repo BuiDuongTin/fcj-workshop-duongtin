@@ -21,6 +21,6 @@ Expected result:
 - `payment-worker` processes messages from SQS.
 - `order-worker` updates order status after payment results are available.
 
-![Order checkout flow](/fcj-workshop-haidang/images/5-Workshop/hashop-test-cleanup/image7.png)
+![Order checkout flow](/fcj-workshop-duongtin/images/5-Workshop/hashop-test-cleanup/image7.png)
 
-![Order status validation](/fcj-workshop-haidang/images/5-Workshop/hashop-test-cleanup/image8.png)
+![Order status validation](/fcj-workshop-duongtin/images/5-Workshop/hashop-test-cleanup/image8.png)

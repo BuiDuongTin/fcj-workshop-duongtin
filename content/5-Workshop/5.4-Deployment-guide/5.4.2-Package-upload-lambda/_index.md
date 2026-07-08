@@ -49,4 +49,4 @@ Verify that the file exists:
 aws s3 ls "s3://$ARTIFACT_BUCKET/lambda/post-confirmation/function.zip" --region $REGION
 ```
 
-![Upload Lambda PostConfirmation package](/fcj-workshop-haidang/images/5-Workshop/hashop-deployment/image2.png)
+![Upload Lambda PostConfirmation package](/fcj-workshop-duongtin/images/5-Workshop/hashop-deployment/image2.png)
