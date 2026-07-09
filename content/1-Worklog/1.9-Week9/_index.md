@@ -1,48 +1,42 @@
 ---
-title: "Week 9 Worklog"
+title: "Worklog Week 9"
 date: 2026-06-12
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-
-
-### Week 9 Objectives:
-* Learn about Monitoring and Logging on AWS.
+### Objectives for week 9:
+* Understand the role of monitoring and logging on AWS.
 * Get familiar with Amazon CloudWatch.
-* Monitor metrics, logs, alarms, and dashboards.
-* Learn how to monitor EC2, Lambda, or other AWS resources.
-* Create CloudWatch Alarms to alert when resources exceed thresholds.
+* Track metrics, logs, alarms, and dashboards.
+* Learn how to raise alerts when resources pass a threshold.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
+### Tasks for this week:
+| Day | Task | Start Date | End Date | Resources |
 | --- | --- | --- | --- | --- |
-| 6 | - Learn about Amazon CloudWatch overview <br> - Understand the roles of metrics, logs, alarms, and dashboards <br> - Note key metrics to monitor on AWS resources | 12/06/2026 | 12/06/2026 | <https://000008.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - View CloudWatch Metrics <br> - Check CPU, network, disk, or related metrics <br> - Note how metrics help evaluate system status <br> - Compare normal metrics and abnormal metrics | 15/06/2026 | 15/06/2026 | <https://000008.awsstudygroup.com/> |
-| 3 | - Learn about CloudWatch Logs <br> - Observe logs from AWS resources <br> - Note how to read logs to support troubleshooting <br> - Note costs when logging too much data | 16/06/2026 | 16/06/2026 | <https://000008.awsstudygroup.com/> |
-| 4 | - Create a basic CloudWatch Alarm <br> - Configure alerts based on CPU thresholds or errors <br> - Check alarm status <br> - Note how alerts support system operations | 17/06/2026 | 17/06/2026 | <https://000008.awsstudygroup.com/> |
-| 5 | - Create or view a CloudWatch Dashboard <br> - Compile key metrics into a dashboard <br> - Update architecture diagram with a monitoring layer <br> - Clean up resources after completing the lab | 18/06/2026 | 18/06/2026 | <https://000008.awsstudygroup.com/> |
+| 6 | - Review Amazon CloudWatch at a high level <br> - Understand the role of metrics, logs, alarms, and dashboards <br> - Record the most important signals to watch | 12/06/2026 | 12/06/2026 | <https://000008.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Review CloudWatch Metrics <br> - Check CPU, network, disk, and related values <br> - Compare normal and unusual metrics | 15/06/2026 | 15/06/2026 | <https://000008.awsstudygroup.com/> |
+| 3 | - Learn CloudWatch Logs <br> - Observe logs from AWS resources <br> - Note how logs support troubleshooting | 16/06/2026 | 16/06/2026 | <https://000008.awsstudygroup.com/> |
+| 4 | - Create a basic CloudWatch Alarm <br> - Set a threshold for CPU or error conditions <br> - Check the alarm state | 17/06/2026 | 17/06/2026 | <https://000008.awsstudygroup.com/> |
+| 5 | - Create or review a CloudWatch Dashboard <br> - Place important metrics in one view <br> - Clean up resources after the lab | 18/06/2026 | 18/06/2026 | <https://000008.awsstudygroup.com/> |
 
-
-### Week 9 Achievements:
+### Week 9 results:
 **Overview:**
 
-This week I understood the role of monitoring and logging in operating AWS systems. I know how to use CloudWatch to monitor metrics, read logs, and create alerts when the system shows signs of anomalies.
+This week showed me that monitoring is not just about looking at numbers. CloudWatch helped me connect metrics, logs, and alarms into one workflow for understanding how a system behaves.
 
-**Learned theory:**
+**What I learned:**
 
-* Amazon CloudWatch.
-* Metrics, Logs, Alarms, and Dashboards.
-* Monitoring for EC2, Lambda, or AWS resources.
-* The importance of alerts in operations.
-* Notes on costs when logging too much data.
+* Metrics describe the state of a resource.
+* Logs help investigate issues.
+* Alarms let us respond early to unusual conditions.
+* Dashboards provide a single view of the system.
 
-**Hands-on labs:**
+**Hands-on practice:**
 
-* Observe CloudWatch Metrics.
-* Check CloudWatch Logs.
-* Create CloudWatch Alarm.
-* Create or view CloudWatch Dashboard.
-* Update monitoring layer in architecture diagram.
-* Clean up resources after completing the lab.
+* Reviewing CloudWatch Metrics.
+* Checking CloudWatch Logs.
+* Creating a CloudWatch Alarm.
+* Viewing a CloudWatch Dashboard.
+* Adding a monitoring layer to the architecture diagram.

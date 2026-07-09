@@ -6,48 +6,38 @@ chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-
-
 ### Mục tiêu tuần 10:
-* Tìm hiểu AWS IAM Identity Center và quản lý truy cập tập trung.
-* Nắm được vai trò của AWS Organizations và Organization Unit.
-* Hiểu cách quản lý truy cập cho nhiều tài khoản AWS.
-* Thực hành cấu hình user/group và phân quyền theo permission set.
+* Hiểu cách IAM Identity Center hỗ trợ truy cập tập trung.
+* Biết vai trò của AWS Organizations và Organization Unit.
+* Làm quen với quản lý nhiều tài khoản AWS.
+* Cấu hình user, group và permission set.
 * Củng cố nguyên tắc least privilege trong môi trường nhiều tài khoản.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 6 | - Tìm hiểu tổng quan IAM Identity Center <br> - Phân biệt giữa IAM thông thường và IAM Identity Center <br> - Ghi lại lợi ích của quản lý định danh tập trung trong tổ chức | 19/06/2026 | 19/06/2026 | <https://000012.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Tìm hiểu AWS Organizations <br> - Tạo hoặc mô phỏng AWS Account trong AWS Organizations <br> - Tìm hiểu Organization Unit <br> - Ghi lại cách phân chia tài khoản theo team/project | 22/06/2026 | 22/06/2026 | <https://000012.awsstudygroup.com/> |
-| 3 | - Cấu hình IAM Identity Center <br> - Tạo user/group hoặc kiểm tra identity store <br> - Tìm hiểu permission set <br> - Gán quyền truy cập tài khoản AWS theo group hoặc role | 23/06/2026 | 23/06/2026 | <https://000012.awsstudygroup.com/> |
-| 4 | - Tìm hiểu AWS CLI trong bối cảnh IAM Identity Center <br> - Tìm hiểu time-based access control <br> - Ghi lại cách kiểm soát truy cập theo thời gian <br> - Tìm hiểu customer managed policies | 24/06/2026 | 24/06/2026 | <https://000012.awsstudygroup.com/> |
-| 5 | - Rà soát kiến trúc bảo mật nhiều tài khoản <br> - Kiểm tra nguyên tắc least privilege <br> - Ghi lại cách IAM Identity Center hỗ trợ quản lý truy cập tập trung <br> - Dọn dẹp tài nguyên sau khi hoàn tất lab | 25/06/2026 | 25/06/2026 | <https://000012.awsstudygroup.com/> |
-
+| 6 | - Tìm hiểu IAM Identity Center <br> - So sánh IAM thông thường và IAM Identity Center <br> - Ghi lại lợi ích của truy cập tập trung | 19/06/2026 | 19/06/2026 | <https://000012.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Tìm hiểu AWS Organizations <br> - Tạo hoặc mô phỏng AWS Account trong Organizations <br> - Ghi lại cách chia tài khoản theo team hoặc project | 22/06/2026 | 22/06/2026 | <https://000012.awsstudygroup.com/> |
+| 3 | - Cấu hình IAM Identity Center <br> - Tạo user/group hoặc kiểm tra identity store <br> - Tìm hiểu permission set | 23/06/2026 | 23/06/2026 | <https://000012.awsstudygroup.com/> |
+| 4 | - Tìm hiểu AWS CLI trong bối cảnh IAM Identity Center <br> - Ghi chú time-based access control <br> - Tìm hiểu customer managed policies | 24/06/2026 | 24/06/2026 | <https://000012.awsstudygroup.com/> |
+| 5 | - Rà soát kiến trúc bảo mật nhiều tài khoản <br> - Kiểm tra nguyên tắc least privilege <br> - Dọn dẹp tài nguyên sau lab | 25/06/2026 | 25/06/2026 | <https://000012.awsstudygroup.com/> |
 
 ### Kết quả tuần 10:
 **Tổng quan:**
 
-Tuần này tập trung vào quản lý truy cập tập trung với IAM Identity Center và AWS Organizations. Tôi hiểu cách phân quyền theo nhóm người dùng, permission set và áp dụng nguyên tắc least privilege trong môi trường nhiều tài khoản.
+Tuần này giúp tôi nhìn rõ hơn cách AWS quản lý truy cập ở cấp tổ chức. Tôi hiểu cách IAM Identity Center, Organizations và permission set phối hợp để phân quyền cho nhiều tài khoản một cách gọn hơn.
 
-**Kiến thức lý thuyết tiếp thu:**
+**Điều tôi ghi nhớ:**
 
-* IAM Identity Center.
-* AWS Organizations.
-* Organization Unit.
-* User, Group và Identity Store.
-* Permission Set.
-* Time-based access control.
-* Customer managed policies.
-* Least privilege trong môi trường nhiều tài khoản.
+* IAM Identity Center phù hợp cho truy cập tập trung.
+* Organizations giúp sắp xếp nhiều tài khoản theo cấu trúc rõ ràng.
+* Permission set làm cho việc cấp quyền nhất quán hơn.
+* Least privilege vẫn là nguyên tắc quan trọng nhất.
 
-**Thực hành với bài lab:**
+**Phần thực hành:**
 
-* Tạo hoặc mô phỏng AWS Account trong Organizations.
+* Tạo hoặc mô phỏng account trong Organizations.
 * Tạo user/group trong IAM Identity Center.
 * Gán permission set.
 * Kiểm tra quyền truy cập.
-* Rà soát cấu hình bảo mật.
-* Dọn dẹp tài nguyên sau khi hoàn tất lab.
-
-
+* Rà soát cấu hình bảo mật và dọn dẹp lab.

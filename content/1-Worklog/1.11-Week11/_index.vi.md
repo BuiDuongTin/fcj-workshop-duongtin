@@ -6,45 +6,37 @@ chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-
-
 ### Mục tiêu tuần 11:
-* Tìm hiểu AWS Budgets và Cost Management.
-* Nắm được cách kiểm tra chi phí trong AWS Billing.
-* Tạo cost budget để cảnh báo khi chi phí vượt ngưỡng.
-* Rà soát các tài nguyên dễ phát sinh chi phí như EC2, RDS, NAT Gateway, Load Balancer, CloudWatch Logs và Elastic IP.
-* Tìm hiểu cách tối ưu chi phí trong quá trình học và thực hành AWS.
+* Hiểu cách quản lý chi phí với AWS Budgets.
+* Biết kiểm tra chi phí trong Billing.
+* Tạo cảnh báo khi chi phí vượt ngưỡng.
+* Nhận diện các tài nguyên dễ phát sinh phí.
+* Tập thói quen tối ưu chi phí khi học và làm lab.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 6 | - Tìm hiểu tổng quan AWS Budgets <br> - Nắm được vai trò của Cost Budget trong việc kiểm soát chi phí <br> - Ghi lại vì sao cần tạo budget khi thực hành AWS | 26/06/2026 | 26/06/2026 | <https://000007.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Tạo hoặc kiểm tra Cost Budget <br> - Cấu hình ngưỡng cảnh báo chi phí <br> - Thiết lập email nhận cảnh báo <br> - Kiểm tra trạng thái budget sau khi tạo | 29/06/2026 | 29/06/2026 | <https://000007.awsstudygroup.com/> |
-| 3 | - Tìm hiểu Usage Budget, RI Budget và Savings Plans Budget ở mức tổng quan <br> - Ghi lại trường hợp sử dụng của từng loại budget <br> - So sánh budget theo chi phí và budget theo mức sử dụng | 30/06/2026 | 30/06/2026 | <https://000007.awsstudygroup.com/> |
-| 4 | - Rà soát các tài nguyên dễ phát sinh chi phí <br> - Kiểm tra EC2, RDS, NAT Gateway, Load Balancer, CloudWatch Logs, Elastic IP và Snapshot <br> - Ghi lại cách nhận diện tài nguyên còn đang chạy | 01/07/2026 | 01/07/2026 | <https://000007.awsstudygroup.com/> |
-| 5 | - Tổng hợp checklist tối ưu chi phí khi học AWS <br> - Kiểm tra Billing Dashboard <br> - Ghi lại các bước cần làm sau mỗi bài lab để tránh phát sinh chi phí <br> - Chuẩn bị nội dung tổng kết cuối chương trình | 02/07/2026 | 02/07/2026 | <https://000007.awsstudygroup.com/> |
-
+| 6 | - Tìm hiểu AWS Budgets <br> - Ghi lại vai trò của Cost Budget <br> - Nêu lý do nên tạo budget khi thực hành AWS | 26/06/2026 | 26/06/2026 | <https://000007.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Tạo hoặc kiểm tra Cost Budget <br> - Cấu hình ngưỡng cảnh báo <br> - Thiết lập email nhận cảnh báo | 29/06/2026 | 29/06/2026 | <https://000007.awsstudygroup.com/> |
+| 3 | - Tìm hiểu Usage Budget, RI Budget và Savings Plans Budget <br> - Ghi lại trường hợp sử dụng của từng loại budget | 30/06/2026 | 30/06/2026 | <https://000007.awsstudygroup.com/> |
+| 4 | - Rà soát các tài nguyên dễ phát sinh chi phí <br> - Kiểm tra EC2, RDS, NAT Gateway, Load Balancer, CloudWatch Logs, Elastic IP và Snapshot | 01/07/2026 | 01/07/2026 | <https://000007.awsstudygroup.com/> |
+| 5 | - Tổng hợp checklist tối ưu chi phí <br> - Kiểm tra Billing Dashboard <br> - Chuẩn bị nội dung tổng kết chương trình | 02/07/2026 | 02/07/2026 | <https://000007.awsstudygroup.com/> |
 
 ### Kết quả tuần 11:
 **Tổng quan:**
 
-Tuần 11 tập trung vào việc theo dõi và kiểm soát chi phí trên AWS. Tôi đã tạo budget, thiết lập cảnh báo chi phí và rà soát các tài nguyên có khả năng phát sinh phí sau khi hoàn thành lab.
+Tuần này giúp tôi nhìn chi phí AWS theo cách chủ động hơn. Tôi biết cần theo dõi budget, đọc Billing và rà lại tài nguyên sau mỗi lab để tránh quên tắt những thứ không còn dùng.
 
-**Kiến thức lý thuyết tiếp thu:**
+**Điều tôi ghi nhớ:**
 
-* AWS Billing.
-* AWS Budgets.
-* Cost Budget, Usage Budget, RI Budget và Savings Plans Budget.
-* Các tài nguyên dễ phát sinh chi phí.
-* Nguyên tắc tối ưu chi phí khi thực hành AWS.
-* Tầm quan trọng của việc dọn dẹp tài nguyên sau lab.
+* AWS Budgets là công cụ cảnh báo rất hữu ích.
+* Cost, usage và savings plan là những góc nhìn khác nhau khi theo dõi chi tiêu.
+* EC2, RDS, NAT Gateway, Load Balancer và Logs dễ tạo ra phí nếu để chạy lâu.
+* Dọn dẹp tài nguyên là một phần của quy trình làm lab.
 
-**Thực hành với bài lab:**
+**Phần thực hành:**
 
-* Tạo hoặc kiểm tra Cost Budget.
-* Cấu hình cảnh báo chi phí qua email.
-* Kiểm tra Billing Dashboard.
-* Rà soát tài nguyên còn đang chạy.
-* Lập checklist dọn dẹp tài nguyên sau mỗi bài lab.
-
-
+* Tạo hoặc kiểm tra budget.
+* Cấu hình cảnh báo qua email.
+* Rà soát các tài nguyên đang hoạt động.
+* Viết checklist dọn dẹp sau lab.

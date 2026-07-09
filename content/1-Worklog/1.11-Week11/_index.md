@@ -1,48 +1,42 @@
 ---
-title: "Week 11 Worklog"
+title: "Worklog Week 11"
 date: 2026-06-26
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
+### Objectives for week 11:
+* Learn how to manage costs with AWS Budgets.
+* Know how to check billing in AWS.
+* Set alerts when spending goes over a limit.
+* Spot resources that commonly generate costs.
+* Build the habit of cost optimization during labs.
 
-
-### Week 11 Objectives:
-* Learn about AWS Budgets and Cost Management.
-* Understand how to check costs in AWS Billing.
-* Create a cost budget to alert when costs exceed thresholds.
-* Review cost-generating resources like EC2, RDS, NAT Gateway, Load Balancer, CloudWatch Logs, and Elastic IP.
-* Learn how to optimize costs during AWS learning and practice.
-
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
+### Tasks for this week:
+| Day | Task | Start Date | End Date | Resources |
 | --- | --- | --- | --- | --- |
-| 6 | - Learn about AWS Budgets overview <br> - Understand the role of Cost Budgets in cost control <br> - Note why budgets are necessary when practicing AWS | 26/06/2026 | 26/06/2026 | <https://000007.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Create or check a Cost Budget <br> - Configure cost alert thresholds <br> - Set up email alerts <br> - Check budget status after creation | 29/06/2026 | 29/06/2026 | <https://000007.awsstudygroup.com/> |
-| 3 | - Learn about Usage Budgets, RI Budgets, and Savings Plans Budgets at a high level <br> - Note use cases for each budget type <br> - Compare cost-based budgets and usage-based budgets | 30/06/2026 | 30/06/2026 | <https://000007.awsstudygroup.com/> |
-| 4 | - Review cost-generating resources <br> - Check EC2, RDS, NAT Gateway, Load Balancer, CloudWatch Logs, Elastic IP, and Snapshots <br> - Note how to identify still-running resources | 01/07/2026 | 01/07/2026 | <https://000007.awsstudygroup.com/> |
-| 5 | - Compile a cost optimization checklist for learning AWS <br> - Check Billing Dashboard <br> - Note steps to take after each lab to avoid costs <br> - Prepare program final summary content | 02/07/2026 | 02/07/2026 | <https://000007.awsstudygroup.com/> |
+| 6 | - Review AWS Budgets <br> - Record the role of Cost Budget <br> - Explain why a budget is useful during AWS practice | 26/06/2026 | 26/06/2026 | <https://000007.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Create or review a Cost Budget <br> - Set a spending threshold <br> - Configure email alerts | 29/06/2026 | 29/06/2026 | <https://000007.awsstudygroup.com/> |
+| 3 | - Learn about Usage Budget, RI Budget, and Savings Plans Budget <br> - Record the use case for each budget type | 30/06/2026 | 30/06/2026 | <https://000007.awsstudygroup.com/> |
+| 4 | - Review resources that often generate costs <br> - Check EC2, RDS, NAT Gateway, Load Balancer, CloudWatch Logs, Elastic IP, and Snapshots | 01/07/2026 | 01/07/2026 | <https://000007.awsstudygroup.com/> |
+| 5 | - Build a cost-optimization checklist <br> - Check the Billing Dashboard <br> - Prepare the final program summary | 02/07/2026 | 02/07/2026 | <https://000007.awsstudygroup.com/> |
 
-
-### Week 11 Achievements:
+### Week 11 results:
 **Overview:**
 
-This week I understood how to track and control costs on AWS. I know how to create budgets, set up cost alerts, and review resources that may incur costs after completing labs.
+This week helped me become more proactive about AWS costs. I learned that budget tracking, billing review, and post-lab cleanup are all part of responsible AWS practice.
 
-**Learned theory:**
+**What I learned:**
 
-* AWS Billing.
-* AWS Budgets.
-* Cost Budgets, Usage Budgets, RI Budgets, and Savings Plans Budgets.
-* Cost-generating resources.
-* Cost optimization principles when practicing AWS.
-* The importance of cleaning up resources after labs.
+* AWS Budgets is a helpful alerting tool.
+* Cost, usage, and savings plans are different views of spending.
+* EC2, RDS, NAT Gateway, Load Balancer, and Logs can all create charges if left running.
+* Resource cleanup is part of the lab workflow.
 
-**Hands-on labs:**
+**Hands-on practice:**
 
-* Create or check a Cost Budget.
-* Configure email cost alerts.
-* Check Billing Dashboard.
-* Review still-running resources.
-* Create a resource cleanup checklist after each lab.
+* Creating or reviewing a budget.
+* Configuring email alerts.
+* Checking running resources.
+* Writing a cleanup checklist after each lab.

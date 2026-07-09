@@ -6,45 +6,38 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-
-
 ### Mục tiêu tuần 6:
-* Tìm hiểu Amazon RDS và các khái niệm database trên AWS.
-* Phân biệt giữa database tự quản lý trên EC2 và managed database bằng RDS.
-* Tạo RDS Database Instance, cấu hình DB Subnet Group và Security Group.
+* Hiểu cách Amazon RDS hỗ trợ database được quản lý trên AWS.
+* Phân biệt database tự vận hành và database managed.
+* Tạo RDS instance và cấu hình mạng phù hợp.
 * Kết nối EC2 với RDS và kiểm tra hoạt động của database.
-* Tìm hiểu backup, restore và Multi-AZ ở mức cơ bản.
+* Nắm sơ lược backup, restore và Multi-AZ.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 6 | - Tìm hiểu tổng quan Amazon RDS <br> - Phân biệt giữa relational database và non-relational database <br> - Ghi lại lợi ích của managed database trên AWS <br> - Tìm hiểu các database engine phổ biến trong RDS | 22/05/2026 | 22/05/2026 | <https://000005.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Tìm hiểu DB Instance, DB Subnet Group và Security Group cho RDS <br> - Thiết kế database đặt trong private subnet <br> - Xác định cách EC2 trong public/private subnet kết nối đến RDS | 25/05/2026 | 25/05/2026 | <https://000005.awsstudygroup.com/> |
-| 3 | - Thực hành tạo RDS Database Instance <br> - Cấu hình engine, storage, username, password và networking <br> - Kiểm tra database endpoint sau khi tạo <br> - Ghi lại thời gian khởi tạo RDS | 26/05/2026 | 26/05/2026 | <https://000005.awsstudygroup.com/> |
-| 4 | - Kết nối EC2 với RDS <br> - Cấu hình Security Group để EC2 truy cập database <br> - Kiểm tra kết nối bằng command line hoặc database client <br> - Ghi lại lỗi thường gặp khi kết nối thất bại | 27/05/2026 | 27/05/2026 | <https://000005.awsstudygroup.com/> |
-| 5 | - Tìm hiểu backup và restore trong RDS <br> - Tìm hiểu Multi-AZ ở mức tổng quan <br> - Cập nhật sơ đồ kiến trúc có EC2, RDS, private subnet và Security Group <br> - Dọn dẹp tài nguyên sau khi hoàn tất lab | 28/05/2026 | 28/05/2026 | <https://000005.awsstudygroup.com/> |
-
+| 6 | - Tìm hiểu Amazon RDS ở mức tổng quan <br> - Phân biệt relational database và non-relational database <br> - Ghi lại lợi ích của dịch vụ managed database trên AWS | 22/05/2026 | 22/05/2026 | <https://000005.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Tìm hiểu DB Instance, DB Subnet Group và Security Group cho RDS <br> - Thiết kế database trong private subnet <br> - Xác định cách EC2 kết nối đến RDS | 25/05/2026 | 25/05/2026 | <https://000005.awsstudygroup.com/> |
+| 3 | - Tạo RDS Database Instance <br> - Cấu hình engine, storage, user, password và networking <br> - Kiểm tra endpoint sau khi tạo | 26/05/2026 | 26/05/2026 | <https://000005.awsstudygroup.com/> |
+| 4 | - Kết nối EC2 với RDS <br> - Mở quyền truy cập bằng Security Group <br> - Kiểm tra kết nối bằng dòng lệnh hoặc client | 27/05/2026 | 27/05/2026 | <https://000005.awsstudygroup.com/> |
+| 5 | - Tìm hiểu backup, restore và Multi-AZ <br> - Cập nhật sơ đồ có EC2, RDS, private subnet và Security Group <br> - Dọn dẹp tài nguyên sau lab | 28/05/2026 | 28/05/2026 | <https://000005.awsstudygroup.com/> |
 
 ### Kết quả tuần 6:
 **Tổng quan:**
 
-Tuần 6 giúp tôi hiểu rõ hơn vai trò của Amazon RDS khi triển khai database được AWS quản lý. Tôi đã thực hành tạo RDS Database Instance, cấu hình kết nối và mô tả kiến trúc ứng dụng trong đó EC2 truy cập đến RDS.
+Tuần này giúp tôi hiểu rõ hơn vai trò của RDS trong kiến trúc cloud. Tôi đã thực hành tạo database managed, cấu hình kết nối và hình dung cách EC2 giao tiếp với RDS trong một hệ thống thật.
 
-**Kiến thức lý thuyết tiếp thu:**
+**Điều tôi ghi nhớ:**
 
-* Relational database và non-relational database.
-* Amazon RDS và managed database.
-* DB Instance, DB Engine, DB Subnet Group.
-* RDS endpoint và Security Group.
-* Backup, restore và Multi-AZ trong RDS.
+* RDS giảm bớt công việc vận hành database.
+* DB Subnet Group và Security Group quyết định database có thể được truy cập như thế nào.
+* Endpoint là thông tin cần theo dõi khi kết nối RDS.
+* Backup, restore và Multi-AZ là các yếu tố rất quan trọng cho độ tin cậy.
 
-**Thực hành với bài lab:**
+**Phần thực hành:**
 
 * Tạo RDS Database Instance.
-* Cấu hình database trong private subnet.
-* Cấu hình Security Group cho phép EC2 truy cập database.
-* Kết nối EC2 với RDS.
-* Kiểm tra database endpoint.
-* Dọn dẹp tài nguyên sau khi hoàn tất lab.
-
-
+* Đặt database trong private subnet.
+* Cho phép EC2 truy cập RDS qua Security Group.
+* Kết nối và kiểm tra endpoint.
+* Dọn dẹp tài nguyên sau lab.
