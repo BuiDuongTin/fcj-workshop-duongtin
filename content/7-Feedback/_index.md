@@ -6,45 +6,45 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-This section summarizes my personal reflections after participating in the First Cloud Journey internship program and completing the HaShop project report. Overall, the internship helped me understand cloud computing in a more practical way, not only through theory but also through hands-on labs, architecture design, documentation, and project deployment planning.
+This section captures my reflections after taking part in the First Cloud Journey internship and finishing the HaShop project report. The experience helped me understand cloud computing in a more realistic way, not just through theory but also through labs, architecture work, documentation, and deployment preparation.
 
-### 1. Learning Experience
+### 1. Learning Journey
 
-The most valuable part of the internship was the structured learning path. The weekly worklog covered many important AWS topics such as IAM, VPC, EC2, RDS, monitoring, cost management, security, automation, containers, serverless messaging, and clean-up. These topics helped me build a clearer understanding of how AWS services connect with each other in a real system.
+What I valued most was the clear learning path. The weekly worklog moved through major AWS topics such as IAM, VPC, EC2, RDS, monitoring, cost management, security, automation, containers, serverless messaging, and clean-up. That structure helped me see more clearly how AWS services fit together inside a real system.
 
-Before joining the program, I mainly understood cloud services as separate technical concepts. After completing the labs and the HaShop workshop, I was able to see how services such as CloudFront, S3, Cognito, ECS Fargate, RDS, SNS, SQS, WAF, CloudWatch, and CloudFormation can be combined into one complete architecture.
+Before the program, I mostly saw cloud services as separate technical pieces. After finishing the labs and the HaShop workshop, I had a much better sense of how CloudFront, S3, Cognito, ECS Fargate, RDS, SNS, SQS, WAF, CloudWatch, and CloudFormation can be combined into a system that actually works together.
 
-### 2. Project Experience
+### 2. Working on the Project
 
-The HaShop project gave me a chance to work with a practical e-commerce use case. Instead of only describing AWS services individually, I had to think about why each service was selected, how the request flow worked, how authentication was handled, how backend services communicated, how asynchronous processing was designed, and how the system could be tested and cleaned up safely.
+The HaShop project brought me into a concrete e-commerce scenario, so I had to do more than list AWS services one by one. I needed to think through why a service was chosen, how the request flow worked, how authentication was handled, how backend services communicated, how asynchronous processing was designed, and how testing and clean-up could be done without unnecessary cost.
 
-Through this process, I improved my ability to organize technical information into a complete report. I also learned that a good cloud project is not only about deployment, but also about architecture explanation, security, monitoring, cost awareness, validation, and documentation quality.
+That process improved my ability to turn technical information into a coherent report. It also reminded me that a good cloud project is not only about deployment, but also about explaining the architecture clearly, paying attention to security, monitoring, cost control, validation, and documentation quality.
 
-### 3. Support and Guidance
+### 3. Support and Direction
 
-The program materials and references from First Cloud Journey were helpful for building foundational knowledge. The step-by-step labs made it easier to approach AWS services from basic to more advanced topics. The structure also helped me convert daily learning notes into a 12-week worklog and connect them with the final HaShop project.
+The First Cloud Journey materials and references gave me a solid AWS foundation. The step-by-step labs made AWS services easier to approach, from basic topics to more advanced ones. The same structure also helped me turn daily notes into a 12-week worklog and tie them back to the final HaShop project.
 
-During the report completion process, feedback helped me improve several important parts, such as replacing generic reference materials with actual learning links, restructuring the workshop chapter, adding deployment and testing sections, and making the report easier to read in both English and Vietnamese.
+While completing the report, feedback helped me improve several key parts, such as replacing generic reference material with specific learning links, reorganizing the workshop chapter, adding deployment and testing content, and making the report easier to read in both English and Vietnamese.
 
-### 4. Skills Improved
+### 4. Skills I Improved
 
 After completing the internship report, I improved in the following areas:
 
-- Understanding AWS services and how they are used in real architectures.
-- Reading and rewriting technical blog content in a clearer way.
-- Designing and explaining a cloud architecture diagram.
+- Understanding AWS services and how they apply to real-world architecture.
+- Reading, translating, and rewriting technical content more clearly.
+- Designing and explaining cloud architecture diagrams.
 - Writing deployment guides that other people can follow.
-- Paying attention to logs, metrics, validation, cost control, and clean-up.
-- Organizing bilingual technical documentation consistently.
+- Paying closer attention to logs, metrics, validation, cost control, and clean-up.
+- Keeping bilingual technical documentation consistent.
 
-### 5. Suggestions
+### 5. Suggestions for Future Cohorts
 
-For future interns, I think the program could provide more sample project rubrics early in the process. This would help students understand from the beginning that the final project should include architecture design, service selection rationale, deployment steps, testing, monitoring, optimization, and clean-up.
+For future interns, I think the program could share project rubrics or evaluation criteria earlier. That would make it easier for students to understand from the start that the final project should include architecture design, service selection rationale, deployment steps, testing, monitoring, optimization, and clean-up.
 
-It would also be helpful to include more examples of completed reports or workshop structures. Seeing a good structure early would make it easier for interns to plan their own content and avoid major restructuring near the end.
+It would also help to provide more examples of completed reports or workshop structures. Seeing a good model early would make it easier for interns to organize their own content and avoid major changes near the end.
 
-### 6. Overall Reflection
+### 6. Final Reflection
 
-Overall, I am satisfied with the internship experience. The program helped me move from learning individual AWS services to understanding how to build and explain a complete cloud-based system. The HaShop project also helped me practice both technical thinking and documentation skills, which are important for future cloud-related work.
+Overall, I am happy with the internship experience. The program helped me move from learning individual AWS services to understanding how to build and present a complete cloud-based system. The HaShop project also gave me practice in both technical thinking and documentation, which are important skills for future cloud-related work.
 
-If I had more time, I would continue improving the project by adding more automated deployment scripts, more detailed monitoring dashboards, and more test cases for failure scenarios.
+If I had more time, I would keep improving the project by adding automated deployment scripts, more detailed monitoring dashboards, and more test cases for failure scenarios.
