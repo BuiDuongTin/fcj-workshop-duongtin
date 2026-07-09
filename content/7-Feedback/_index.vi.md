@@ -6,45 +6,45 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-Mục này ghi lại những cảm nhận của tôi sau khi tham gia chương trình thực tập First Cloud Journey và hoàn thành báo cáo dự án HaShop. Đây là khoảng thời gian giúp tôi nhìn điện toán đám mây theo góc độ sát với công việc thực tế hơn, từ việc làm lab, xây dựng kiến trúc, viết tài liệu đến chuẩn bị triển khai dự án.
+Phần này tổng hợp những điều tôi rút ra sau khi hoàn thành chương trình thực tập First Cloud Journey và báo cáo dự án HaShop. Trong suốt quá trình đó, tôi không chỉ học thêm về AWS mà còn hiểu rõ hơn cách biến kiến thức kỹ thuật thành một sản phẩm có thể mô tả, kiểm thử và trình bày một cách có hệ thống.
 
-### 1. Hành trình học tập
+### 1. Điều tôi học được nhiều nhất
 
-Điều tôi đánh giá cao nhất là chương trình được chia theo lộ trình khá rõ ràng. Worklog hằng tuần dẫn dắt người học đi qua nhiều chủ đề AWS quan trọng như IAM, VPC, EC2, RDS, giám sát, quản lý chi phí, bảo mật, tự động hóa, container, serverless messaging và clean-up. Nhờ vậy, tôi có cái nhìn rõ hơn về cách các dịch vụ AWS phối hợp với nhau trong một hệ thống hoàn chỉnh.
+Ấn tượng lớn nhất của tôi là chương trình buộc người học phải đi theo nhịp độ rất thực tế. Mỗi tuần đều có một trọng tâm riêng, từ các khái niệm nền tảng như IAM, VPC, EC2 và RDS cho đến các phần gần với vận hành hơn như logging, monitoring, cost awareness, security và clean-up. Nhờ cách học này, tôi không còn nhìn AWS như những dịch vụ rời rạc mà bắt đầu hiểu cách chúng tham gia vào một hệ thống hoàn chỉnh.
 
-Trước đây tôi thường xem các dịch vụ cloud như từng mảnh kiến thức riêng lẻ. Sau khi làm xong các lab và workshop HaShop, tôi hiểu rõ hơn cách ghép CloudFront, S3, Cognito, ECS Fargate, RDS, SNS, SQS, WAF, CloudWatch và CloudFormation thành một kiến trúc có thể vận hành được.
+Điều đó cũng giúp tôi thay đổi cách tiếp cận khi đọc tài liệu. Thay vì chỉ học tính năng, tôi bắt đầu tự hỏi từng dịch vụ giải quyết vấn đề gì, tác động đến luồng xử lý ra sao và có thật sự cần thiết trong kiến trúc hay không.
 
-### 2. Làm việc với dự án
+### 2. Khi chuyển sang làm dự án
 
-Dự án HaShop đưa tôi vào một bài toán thương mại điện tử cụ thể, nên tôi không thể chỉ liệt kê dịch vụ AWS một cách rời rạc. Tôi phải trả lời nhiều câu hỏi hơn: vì sao chọn dịch vụ này, request đi theo luồng nào, phần xác thực hoạt động ra sao, các backend service liên lạc với nhau bằng cách nào, cơ chế bất đồng bộ được thiết kế thế nào và cần kiểm thử, clean-up ra sao để tránh phát sinh chi phí không cần thiết.
+Khi bước vào HaShop, tôi nhận ra phần khó nhất không nằm ở việc triển khai từng dịch vụ, mà ở việc ghép chúng thành một câu chuyện logic. Tôi phải suy nghĩ về người dùng, luồng request, cơ chế xác thực, cách backend trao đổi dữ liệu, chỗ nào nên dùng xử lý đồng bộ và chỗ nào nên tách sang bất đồng bộ.
 
-Nhờ quá trình đó, tôi rèn được khả năng sắp xếp thông tin kỹ thuật thành một báo cáo mạch lạc hơn. Tôi cũng nhận ra rằng một dự án cloud tốt không chỉ nằm ở chỗ triển khai được, mà còn ở việc giải thích kiến trúc rõ ràng, chú ý đến bảo mật, monitoring, tối ưu chi phí, kiểm thử và chất lượng tài liệu.
+Nhờ vậy, tôi hiểu rõ hơn rằng một dự án cloud không thể chỉ dừng ở mức "chạy được". Nó còn cần có lý do thiết kế, có điểm nhấn về bảo mật, có cách quan sát hệ thống, có kiểm thử rõ ràng và có kế hoạch kết thúc để tránh lãng phí tài nguyên. Đây là phần khiến tôi thấy báo cáo dự án có ý nghĩa hơn nhiều so với việc chỉ mô tả công nghệ.
 
-### 3. Hỗ trợ và định hướng
+### 3. Phần hỗ trợ tạo khác biệt
 
-Tài liệu và nguồn học từ First Cloud Journey đã cho tôi một nền tảng AWS khá vững. Các bài lab theo từng bước làm cho việc tiếp cận dịch vụ AWS trở nên dễ hơn, từ phần cơ bản đến các chủ đề nâng cao hơn. Cách tổ chức này cũng hỗ trợ tôi biến ghi chú học hằng ngày thành worklog 12 tuần và gắn kết chúng với dự án HaShop cuối kỳ.
+Điều giúp tôi đi nhanh hơn chính là hệ thống tài liệu và lab có sẵn. Các bài học được chia nhỏ theo bước nên tôi không bị quá tải khi tiếp cận những nội dung mới. Mỗi phần đều có mục tiêu rõ ràng, nhờ đó tôi có thể ghi chú, ôn lại và chuyển hóa thành worklog mà không bị đứt mạch.
 
-Trong lúc hoàn thiện báo cáo, các góp ý đã giúp tôi chỉnh nhiều phần quan trọng như thay tài liệu tham khảo chung chung bằng link bài học cụ thể, sắp xếp lại chương workshop, bổ sung nội dung deployment, test validation, clean-up và trình bày rõ ràng hơn ở cả tiếng Anh lẫn tiếng Việt.
+Trong quá trình hoàn thiện báo cáo, các góp ý cũng giúp tôi nhìn lại cách tổ chức nội dung. Tôi phải điều chỉnh lại cách trình bày, thêm phần mô tả triển khai và kiểm thử, đồng thời làm cho hai bản tiếng Anh và tiếng Việt khớp với nhau hơn về mặt ý tưởng lẫn cấu trúc.
 
-### 4. Những kỹ năng tôi cải thiện
+### 4. Những thay đổi ở bản thân
 
 Sau khi hoàn thành báo cáo thực tập, tôi cải thiện được các kỹ năng sau:
 
-- Hiểu các dịch vụ AWS và cách áp dụng chúng vào kiến trúc thực tế.
-- Đọc, dịch và biên tập lại nội dung kỹ thuật theo hướng rõ ràng hơn.
-- Thiết kế và diễn giải sơ đồ kiến trúc cloud.
-- Viết hướng dẫn triển khai để người khác có thể làm theo.
-- Quan tâm hơn đến log, metric, validation, kiểm soát chi phí và clean-up.
-- Trình bày tài liệu kỹ thuật song ngữ một cách thống nhất.
+- Tôi tự tin hơn khi đọc tài liệu AWS và chọn lọc thông tin cần thiết.
+- Tôi biết cách biến ghi chú rời rạc thành nội dung có mạch.
+- Tôi có thói quen nhìn một kiến trúc từ nhiều góc độ hơn, thay vì chỉ nhìn vào phần triển khai.
+- Tôi chú ý hơn đến phần trình bày, vì một báo cáo kỹ thuật tốt cần rõ ràng, nhất quán và dễ theo dõi.
+- Tôi hiểu rằng kiểm thử, giám sát và clean-up cũng quan trọng không kém phần xây dựng hệ thống.
+- Tôi quen hơn với việc viết nội dung song ngữ mà vẫn giữ được ý chính thống nhất.
 
-### 5. Đề xuất cho các khóa sau
+### 5. Nếu chương trình có thể cải thiện thêm
 
-Với các bạn thực tập sinh ở những khóa sau, tôi nghĩ chương trình nên cung cấp rubric hoặc tiêu chí đánh giá dự án sớm hơn. Như vậy, sinh viên sẽ nắm ngay từ đầu rằng project cuối kỳ cần có thiết kế kiến trúc, lý do chọn dịch vụ, các bước triển khai, kiểm thử, monitoring, tối ưu và clean-up.
+Nếu chương trình có thể bổ sung thêm ví dụ thực tế từ đầu, người học sẽ dễ hình dung hơn về đầu ra cuối kỳ. Một vài mẫu báo cáo, sơ đồ kiến trúc hoặc cách viết phần triển khai sẽ giúp sinh viên tránh cảm giác phải tự mò quá nhiều ở giai đoạn sau.
 
-Ngoài ra, nếu có thêm vài mẫu báo cáo hoặc workshop hoàn chỉnh, thực tập sinh sẽ dễ hình dung hơn khi tổ chức nội dung và tránh phải sửa quá nhiều ở giai đoạn cuối.
+Ngoài ra, nếu có một khung đánh giá rõ hơn ngay từ đầu, sinh viên sẽ biết mình cần tập trung vào đâu: kiến trúc, lựa chọn dịch vụ, tính hợp lý của luồng xử lý, kiểm thử, monitoring hay phần tổng kết. Điều này sẽ giúp quá trình làm dự án bớt bị động hơn.
 
-### 6. Tổng kết
+### 6. Kết luận cá nhân
 
-Nhìn chung, tôi hài lòng với trải nghiệm thực tập này. Chương trình đã giúp tôi đi từ việc học từng dịch vụ AWS riêng lẻ đến chỗ hiểu cách xây dựng và trình bày một hệ thống cloud hoàn chỉnh. Dự án HaShop cũng giúp tôi luyện cả tư duy kỹ thuật lẫn kỹ năng viết tài liệu, đây đều là những năng lực quan trọng cho công việc liên quan đến cloud sau này.
+Với tôi, First Cloud Journey là một trải nghiệm đáng nhớ vì nó không chỉ dạy công cụ mà còn dạy cách suy nghĩ khi làm việc với cloud. Sau chương trình, tôi cảm thấy mình có nền tảng vững hơn để đọc tài liệu, thiết kế giải pháp và trình bày ý tưởng kỹ thuật một cách rõ ràng hơn.
 
-Nếu có thêm thời gian, tôi muốn tiếp tục hoàn thiện dự án bằng cách thêm script triển khai tự động, dashboard monitoring chi tiết hơn và nhiều test case hơn cho các tình huống lỗi.
+Nếu có thời gian quay lại dự án, tôi muốn làm cho phần triển khai tự động, theo dõi hệ thống và kiểm thử lỗi đầy đủ hơn để bản thân hiểu sâu hơn về cách một hệ thống cloud vận hành trong thực tế.
