@@ -6,31 +6,31 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt thời gian thực tập tại **Amazon Web Services Vietnam Co., Ltd.** từ **17/04/2026** đến **10/07/2026**, tôi đã có cơ hội học tập, thực hành và áp dụng kiến thức điện toán đám mây trong một môi trường thực tập có định hướng rõ ràng.
+Trong thời gian thực tập tại **Amazon Web Services Vietnam Co., Ltd.** từ **17/04/2026** đến **10/07/2026**, tôi có cơ hội tiếp cận điện toán đám mây theo cách rất thực tế. Thay vì chỉ học khái niệm, tôi được làm việc với lab, tài liệu, workshop và một dự án hoàn chỉnh để hiểu rõ hơn cách một hệ thống cloud được xây dựng và trình bày.
 
-Dự án chính của tôi là **HaShop - nền tảng thương mại điện tử theo kiến trúc microservices được triển khai trên AWS**. Thông qua dự án này, tôi đã thực hành thiết kế kiến trúc AWS, lựa chọn dịch vụ phù hợp, triển khai container, triển khai hạ tầng bằng CloudFormation, theo dõi hệ thống, kiểm thử, viết tài liệu và hoàn thiện báo cáo thực tập.
+Trọng tâm của kỳ thực tập là dự án **HaShop - nền tảng thương mại điện tử theo kiến trúc microservices được triển khai trên AWS**. Nhờ dự án này, tôi đã luyện được nhiều kỹ năng cùng lúc: thiết kế kiến trúc, chọn dịch vụ phù hợp, làm việc với container, triển khai hạ tầng bằng CloudFormation, theo dõi hệ thống, kiểm thử và hoàn thiện tài liệu báo cáo.
 
-Về tác phong làm việc, tôi luôn cố gắng hoàn thành nhiệm vụ một cách có trách nhiệm, bám sát tiến độ thực tập và nâng cao kiến thức kỹ thuật thông qua tự học và thực hành lab. Tôi cũng học được cách tổ chức nội dung kỹ thuật thành một báo cáo thực tập hoàn chỉnh với cả phiên bản tiếng Anh và tiếng Việt.
+Về tác phong làm việc, tôi cố gắng giữ sự chủ động trong suốt quá trình thực tập. Tôi tự sắp xếp việc học, theo sát tiến độ của chương trình và dành thêm thời gian để ôn lại kiến thức qua lab. Đồng thời, tôi học được cách gom các nội dung kỹ thuật rời rạc thành một báo cáo có bố cục rõ ràng, gồm cả bản tiếng Anh và tiếng Việt.
 
-Để nhìn lại quá trình thực tập, tôi tự đánh giá bản thân dựa trên các tiêu chí sau:
+Nhìn lại toàn bộ quá trình, tôi tự đánh giá mình theo các tiêu chí dưới đây:
 
-| STT | Tiêu chí | Mô tả | Tốt | Khá | Trung bình |
+| STT | Tiêu chí | Mô tả ngắn | Tốt | Khá | Trung bình |
 | --- | --- | --- | --- | --- | --- |
-| 1 | **Kiến thức và kỹ năng chuyên môn** | Hiểu các khái niệm AWS, áp dụng kiến thức cloud vào thực tế và sử dụng công cụ hiệu quả | ✅ | ☐ | ☐ |
-| 2 | **Khả năng học hỏi** | Tiếp thu kiến thức mới, học nhanh các dịch vụ AWS và chuyển nội dung học thành thực hành | ✅ | ☐ | ☐ |
-| 3 | **Chủ động** | Chuẩn bị tài liệu, tự tìm hiểu giải pháp và cải thiện báo cáo mà không cần hướng dẫn quá chi tiết | ✅ | ☐ | ☐ |
-| 4 | **Tinh thần trách nhiệm** | Hoàn thiện worklog, proposal, blog translation, workshop và tài liệu một cách cẩn thận | ✅ | ☐ | ☐ |
-| 5 | **Kỷ luật** | Bám sát thời gian thực tập và giữ cấu trúc báo cáo rõ ràng theo từng chương | ✅ | ☐ | ☐ |
-| 6 | **Tinh thần cầu tiến** | Tiếp nhận feedback và điều chỉnh cấu trúc, hình ảnh, nội dung của báo cáo | ☐ | ✅ | ☐ |
-| 7 | **Giao tiếp** | Trình bày nội dung dự án, giải thích kiến trúc và viết báo cáo song ngữ | ☐ | ✅ | ☐ |
-| 8 | **Làm việc nhóm** | Phối hợp nội dung báo cáo và điều chỉnh tài liệu dự án theo yêu cầu chung của nhóm | ☐ | ☐ | ✅ |
-| 9 | **Ứng xử chuyên nghiệp** | Duy trì thái độ học tập nghiêm túc và tôn trọng hướng dẫn trong quá trình thực tập | ✅ | ☐ | ☐ |
-| 10 | **Tư duy giải quyết vấn đề** | Nhận diện vấn đề trong triển khai, cấu trúc tài liệu, reference và định dạng báo cáo | ✅ | ☐ | ☐ |
-| 11 | **Đóng góp vào dự án/nhóm** | Đóng góp tài liệu dự án HaShop, mô tả kiến trúc, hướng dẫn triển khai, kiểm thử và clean-up | ✅ | ☐ | ☐ |
-| 12 | **Tổng thể** | Đánh giá chung về toàn bộ quá trình thực tập và mức độ hoàn thiện báo cáo cuối kỳ | ✅ | ☐ | ☐ |
+| 1 | **Nền tảng chuyên môn** | Nắm khái niệm AWS, biết áp dụng vào bài toán thực tế và sử dụng công cụ đúng mục đích | ✅ | ☐ | ☐ |
+| 2 | **Khả năng tiếp thu** | Tiếp nhận kiến thức mới nhanh, sau đó chuyển thành thao tác thực hành trên lab | ✅ | ☐ | ☐ |
+| 3 | **Tính chủ động** | Tự tìm hiểu hướng giải quyết, chuẩn bị nội dung và cải thiện báo cáo khi cần | ✅ | ☐ | ☐ |
+| 4 | **Trách nhiệm công việc** | Hoàn thành worklog, proposal, phần dịch blog, workshop và tài liệu cẩn thận | ✅ | ☐ | ☐ |
+| 5 | **Tính kỷ luật** | Giữ nhịp làm việc theo timeline và đảm bảo báo cáo có bố cục rõ ràng | ✅ | ☐ | ☐ |
+| 6 | **Tinh thần tiếp thu** | Nhận feedback và điều chỉnh cách viết, hình ảnh, cũng như cách trình bày nội dung | ☐ | ✅ | ☐ |
+| 7 | **Giao tiếp và trình bày** | Giải thích kiến trúc, trình bày nội dung dự án và viết báo cáo song ngữ | ☐ | ✅ | ☐ |
+| 8 | **Phối hợp nhóm** | Cập nhật tài liệu dự án theo yêu cầu chung và giữ cho nội dung đồng bộ | ☐ | ☐ | ✅ |
+| 9 | **Thái độ làm việc** | Giữ tinh thần học tập nghiêm túc và tôn trọng hướng dẫn trong suốt kỳ thực tập | ✅ | ☐ | ☐ |
+| 10 | **Giải quyết vấn đề** | Nhận ra các vấn đề về triển khai, cấu trúc tài liệu, reference và format | ✅ | ☐ | ☐ |
+| 11 | **Đóng góp cho dự án** | Góp phần vào phần mô tả kiến trúc, triển khai, kiểm thử và clean-up của HaShop | ✅ | ☐ | ☐ |
+| 12 | **Đánh giá chung** | Nhìn tổng thể mức độ hoàn thành của kỳ thực tập và báo cáo cuối kỳ | ✅ | ☐ | ☐ |
 
 ## Cần cải thiện
 
-- Cải thiện kỹ năng làm việc nhóm và phối hợp khi thực hiện các tài liệu chung của dự án.
-- Tiếp tục rèn luyện kỹ năng giao tiếp, đặc biệt là khi giải thích các quyết định kỹ thuật một cách rõ ràng và ngắn gọn.
-- Tăng cường thói quen rà soát công việc sớm hơn để giảm lỗi định dạng và nội dung ở giai đoạn hoàn thiện cuối cùng.
+- Tôi cần phối hợp nhịp nhàng hơn khi cùng xây dựng tài liệu chung với người khác.
+- Tôi muốn luyện thêm cách diễn đạt ý kỹ thuật ngắn gọn, rõ ràng và dễ hiểu hơn.
+- Tôi cũng cần kiểm tra nội dung sớm hơn để hạn chế lỗi về format và cách trình bày ở giai đoạn chốt báo cáo.

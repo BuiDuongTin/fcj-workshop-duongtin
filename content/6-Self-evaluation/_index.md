@@ -6,31 +6,31 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **Amazon Web Services Vietnam Co., Ltd.** from **17/04/2026** to **10/07/2026**, I had the opportunity to learn, practice, and apply cloud computing knowledge in a structured internship environment.
+During my internship at **Amazon Web Services Vietnam Co., Ltd.** from **17/04/2026** to **10/07/2026**, I was able to approach cloud computing in a much more practical way. Instead of only studying concepts, I worked through labs, documentation, workshops, and a complete project to understand how a cloud system is actually built and presented.
 
-My main project was **HaShop - an e-commerce microservices platform deployed on AWS**. Through this project, I practiced AWS architecture design, service selection, container deployment, CloudFormation-based infrastructure deployment, monitoring, testing, documentation, and report writing.
+My main focus was **HaShop - an e-commerce microservices platform deployed on AWS**. Through that project, I developed several skills at once: architecture design, service selection, container work, CloudFormation-based infrastructure deployment, monitoring, testing, and report preparation.
 
-In terms of work ethic, I tried to complete assigned tasks responsibly, follow the internship schedule, and improve my technical understanding through self-study and hands-on labs. I also learned how to organize technical content into a complete internship report with both English and Vietnamese versions.
+In terms of work habits, I tried to stay proactive throughout the internship. I kept up with the program schedule, studied on my own, and used the labs to reinforce what I had learned. I also learned how to turn scattered technical notes into a structured internship report in both English and Vietnamese.
 
-To reflect on my internship period, I evaluate myself based on the following criteria:
+To review my internship period, I rate myself using the criteria below:
 
-| No. | Criteria | Description | Good | Fair | Average |
+| No. | Criteria | Short description | Good | Fair | Average |
 | --- | --- | --- | --- | --- | --- |
-| 1 | **Professional knowledge & skills** | Understanding AWS concepts, applying cloud knowledge in practice, and using tools effectively | ✅ | ☐ | ☐ |
-| 2 | **Ability to learn** | Absorbing new knowledge, learning AWS services quickly, and turning lessons into practice | ✅ | ☐ | ☐ |
-| 3 | **Proactiveness** | Preparing materials, researching solutions, and improving the report without waiting for detailed instructions | ✅ | ☐ | ☐ |
-| 4 | **Sense of responsibility** | Completing worklog, proposal, blog translation, workshop content, and documentation carefully | ✅ | ☐ | ☐ |
-| 5 | **Discipline** | Following the internship timeline and keeping the report organized by chapter | ✅ | ☐ | ☐ |
-| 6 | **Progressive mindset** | Receiving feedback and adjusting the report, structure, screenshots, and content quality | ☐ | ✅ | ☐ |
-| 7 | **Communication** | Presenting project content, explaining architecture, and writing bilingual report sections | ☐ | ✅ | ☐ |
-| 8 | **Teamwork** | Coordinating report content and aligning project materials with group requirements | ☐ | ☐ | ✅ |
-| 9 | **Professional conduct** | Maintaining a serious learning attitude and respecting internship guidance | ✅ | ☐ | ☐ |
-| 10 | **Problem-solving skills** | Identifying issues in deployment, documentation structure, references, and report formatting | ✅ | ☐ | ☐ |
-| 11 | **Contribution to project/team** | Contributing HaShop project documentation, architecture explanation, deployment guide, testing, and clean-up content | ✅ | ☐ | ☐ |
-| 12 | **Overall** | General evaluation of the full internship process and final report completion | ✅ | ☐ | ☐ |
+| 1 | **Professional foundation** | Understanding AWS concepts, applying cloud knowledge in practice, and using tools appropriately | ✅ | ☐ | ☐ |
+| 2 | **Learning ability** | Taking in new knowledge quickly and turning it into hands-on lab practice | ✅ | ☐ | ☐ |
+| 3 | **Initiative** | Researching solutions and improving materials without waiting for detailed instructions | ✅ | ☐ | ☐ |
+| 4 | **Responsibility** | Completing the worklog, proposal, translated blog content, workshop material, and documentation carefully | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Keeping pace with the internship timeline and maintaining a clear report structure | ✅ | ☐ | ☐ |
+| 6 | **Growth mindset** | Accepting feedback and adjusting the report structure, visuals, and content quality | ☐ | ✅ | ☐ |
+| 7 | **Communication** | Presenting project ideas, explaining the architecture, and writing bilingual report sections | ☐ | ✅ | ☐ |
+| 8 | **Team collaboration** | Coordinating report content and aligning project materials with shared requirements | ☐ | ☐ | ✅ |
+| 9 | **Professional behavior** | Maintaining a serious learning attitude and respecting internship guidance | ✅ | ☐ | ☐ |
+| 10 | **Problem solving** | Spotting issues in deployment, document structure, references, and formatting | ✅ | ☐ | ☐ |
+| 11 | **Project contribution** | Contributing architecture notes, deployment guidance, testing, and clean-up content for HaShop | ✅ | ☐ | ☐ |
+| 12 | **Overall assessment** | A general rating of the internship experience and final report completion | ✅ | ☐ | ☐ |
 
 ## Needs Improvement
 
-- Improve teamwork and coordination skills when working on shared project materials.
-- Continue practicing communication, especially when explaining technical decisions clearly and concisely.
-- Strengthen the habit of reviewing work earlier to reduce formatting and content issues near the final stage.
+- I need to coordinate better when working on shared documents with other people.
+- I want to keep improving how I explain technical ideas in a short, clear, and easy-to-follow way.
+- I also need to review content earlier so formatting and presentation issues do not appear near the final stage.
