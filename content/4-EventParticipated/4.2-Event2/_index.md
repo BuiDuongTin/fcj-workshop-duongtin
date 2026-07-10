@@ -8,6 +8,8 @@ pre: " <b> 4.2. </b> "
 
 # Summary Report: "FCAJ Community Day - June 2026"
 
+![FCAJ Community Day - June 2026](/fcj-workshop-duongtin/images/4-EventParticipated/event2.jpg)
+
 ## Purpose of the Event
 
 Provide attendees with a clearer view of how cloud computing, AI agents, DevOps automation, and enterprise security are coming together in modern technology systems.

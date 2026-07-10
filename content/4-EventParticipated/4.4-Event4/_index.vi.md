@@ -8,6 +8,8 @@ pre: " <b> 4.4. </b> "
 
 # Tóm tắt sự kiện "AWS Study Tour - Swinburne Vietnam x AWS Vietnam"
 
+![AWS Study Tour - Swinburne Vietnam x AWS Vietnam](/fcj-workshop-duongtin/images/4-EventParticipated/event4.2.jpg)
+
 ## Mục Tiêu Sự Kiện
 
 Chuyến study tour này được tổ chức nhằm giúp sinh viên Swinburne Việt Nam có góc nhìn thực tế hơn về điện toán đám mây và AWS trong môi trường doanh nghiệp. Thay vì chỉ học lý thuyết trên lớp, người tham dự được lắng nghe trực tiếp từ những người đang làm trong ngành và hiểu cách các kỹ năng cloud được áp dụng trong tuyển dụng, công việc kỹ thuật, data engineering, giao tiếp và phát triển sự nghiệp.

@@ -8,6 +8,8 @@ pre: " <b> 4.2. </b> "
 
 # Bài thu hoạch: "FCAJ Community Day - June 2026"
 
+![FCAJ Community Day - June 2026](/fcj-workshop-duongtin/images/4-EventParticipated/event2.jpg)
+
 ## Mục Đích Của Sự Kiện
 
 Cung cấp cho người tham dự góc nhìn rõ hơn về cách điện toán đám mây, AI agents, tự động hóa DevOps và bảo mật doanh nghiệp đang kết hợp với nhau trong các hệ thống công nghệ hiện đại.

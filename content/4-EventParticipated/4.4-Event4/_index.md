@@ -8,6 +8,8 @@ pre: " <b> 4.4. </b> "
 
 # "AWS Study Tour - Swinburne Vietnam x AWS Vietnam" Event Summary
 
+![AWS Study Tour - Swinburne Vietnam x AWS Vietnam](/fcj-workshop-duongtin/images/4-EventParticipated/event4.2.jpg)
+
 ## Event Objectives
 
 This study tour was organized to give Swinburne Vietnam students a more practical view of cloud computing and AWS in real business environments. Instead of learning only from theory, participants could hear directly from people working in the industry and understand how cloud skills are used in hiring, engineering work, data engineering, communication, and career development.
