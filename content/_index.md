@@ -52,7 +52,7 @@ chapter: false
 <div class="student-profile">
   <div class="student-info">
     <h3>Student Information:</h3>
-    <p><strong>Full Name:</strong> Bùi Dương Tín</p>
+    <p><strong>Full Name:</strong> Bui Duong Tin</p>
     <p><strong>Phone Number:</strong> 0879717049</p>
     <p><strong>Email:</strong> <a href="mailto:duongtin.work@gmail.com">duongtin.work@gmail.com</a></p>
     <p><strong>University:</strong> Ho Chi Minh City University of Technology - HUTECH</p>

@@ -7,35 +7,36 @@ pre: " <b> 1.3. </b> "
 ---
 
 ### Mục tiêu tuần 3:
-* Hiểu cách AWS tổ chức networking qua Amazon VPC.
-* Làm quen với subnet, route table, gateway và bộ lọc truy cập.
-* Tách được luồng traffic cho public subnet và private subnet.
-* Biết sơ lược các công cụ hỗ trợ kiểm tra kết nối trong VPC.
+* Hiểu cách triển khai VM và các dịch vụ compute trên AWS.
+* Làm quen với các dịch vụ bổ trợ như EC2 Auto Scaling, EFS/FSx, Lightsail và MGN.
+* Biết cách thiết lập backup và restore bằng AWS Backup.
+* Nắm được quy trình triển khai Storage Gateway và S3 Static Website.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --- | --- | --- | --- |
-| 6 | - Ôn khái niệm Amazon VPC <br> - Tìm hiểu CIDR block <br> - Phân biệt Default VPC và Custom VPC | 01/05/2026 | 01/05/2026 | <https://000003.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Tìm hiểu Subnet <br> - So sánh Public Subnet và Private Subnet <br> - Ghi lại vai trò của Route Table trong mạng AWS | 04/05/2026 | 04/05/2026 | <https://000003.awsstudygroup.com/> |
-| 3 | - Tìm hiểu Internet Gateway và NAT Gateway <br> - Ghi chú cách từng subnet đi Internet khác nhau <br> - Lưu ý chi phí của NAT Gateway | 05/05/2026 | 05/05/2026 | <https://000003.awsstudygroup.com/> |
-| 4 | - Tìm hiểu Security Group và Network ACL <br> - Phân biệt stateful và stateless <br> - Viết rule inbound/outbound đơn giản | 06/05/2026 | 06/05/2026 | <https://000003.awsstudygroup.com/> |
-| 5 | - Xem tổng quan VPC Flow Logs, Reachability Analyzer và Session Manager <br> - Làm quen với Site-to-Site VPN <br> - Vẽ lại sơ đồ network layer hoàn chỉnh | 07/05/2026 | 07/05/2026 | <https://000003.awsstudygroup.com/> |
+### Công việc trong tuần:
+* 01/05/2026: Xem video lý thuyết module 3 và tìm hiểu cách triển khai VM trên AWS cùng các dịch vụ hỗ trợ compute.  
+  Link: <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i>
+* 03/05/2026: Thiết lập chính sách sao lưu trên AWS Backup, tạo Backup Plan và Backup Vault, thực hành restore và dọn dẹp tài nguyên sau kiểm thử.  
+  Link: <https://000013.awsstudygroup.com/>
+* 05/05/2026: Tạo Storage Gateway, tạo File Shares và cấu hình kết nối File Shares từ máy on-premise.  
+  Link: <https://000024.awsstudygroup.com/>
+* 06/05/2026: Tìm hiểu S3 Bucket, S3 Object, triển khai static website trên S3, bật CloudFront, và thực hành Versioning, move/copy object sang region khác.  
+  Link: <https://000057.awsstudygroup.com/>
 
-### Kết quả tuần 3:
+### Kết quả đạt được:
 **Tổng quan:**
 
-Tuần này giúp tôi hiểu rõ hơn networking trên AWS, đặc biệt là cách VPC chia hệ thống thành nhiều lớp để kiểm soát truy cập và định tuyến. Tôi cũng hình dung rõ hơn lý do phải tách public subnet và private subnet.
+Tuần này giúp tôi hiểu rõ hơn cách AWS hỗ trợ compute, backup và lưu trữ. Tôi cũng biết cách triển khai website tĩnh trên S3 và tăng tốc bằng CloudFront.
 
-**Điều tôi ghi nhớ:**
+**Điều tôi rút ra:**
 
-* VPC là nền tảng để tự thiết kế mạng trên AWS.
-* Route table, gateway và subnet quyết định đường đi của traffic.
-* Security Group và Network ACL có vai trò khác nhau.
-* NAT Gateway cho phép private subnet ra Internet nhưng cần cân nhắc chi phí.
+* AWS Backup giúp chuẩn hóa quy trình sao lưu và phục hồi.
+* Storage Gateway là cầu nối hữu ích giữa on-premise và AWS storage.
+* S3 không chỉ dùng để lưu trữ mà còn có thể phục vụ website tĩnh.
+* Versioning và sao chép object là các thao tác quan trọng để quản lý dữ liệu an toàn hơn.
 
 **Phần thực hành:**
 
-* Vẽ mô hình VPC với public/private subnet.
-* Thiết lập route cơ bản cho từng subnet.
-* Ghi chú luồng truy cập qua Internet Gateway và NAT Gateway.
-* Hoàn thiện sơ đồ network layer theo cách dễ đọc hơn.
+* Tạo plan và vault trên AWS Backup.
+* Thực hiện restore để kiểm tra khả năng khôi phục dữ liệu.
+* Cấu hình Storage Gateway và File Shares.
+* Triển khai static website trên S3 và kiểm tra hoạt động qua CloudFront.

@@ -7,36 +7,42 @@ pre: " <b> 1.5. </b> "
 ---
 
 ### Mục tiêu tuần 5:
-* Mở rộng hiểu biết về phần compute và lưu trữ của EC2.
-* Làm quen với Auto Scaling, backup và các dịch vụ lưu trữ liên quan.
-* Thực hành AWS Backup, Storage Gateway và static website hosting.
-* Kết hợp S3 với CloudFront để phân phối nội dung website.
+* Nắm các dịch vụ hỗ trợ bảo mật và quản trị rủi ro trên AWS.
+* Hiểu cách Security Hub và AWS Config giúp theo dõi trạng thái an toàn.
+* Làm quen với Lambda, tagging, Resource Group và Permission Boundary.
+* Biết cách dùng KMS, CloudTrail và Athena để giám sát và phân tích hoạt động truy cập.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --- | --- | --- | --- |
-| 6 | - Ôn lại EC2, AMI, key pair, EBS và Instance Store <br> - Ghi chú User Data và Metadata <br> - Tóm tắt các thành phần quan trọng khi vận hành compute | 15/05/2026 | 15/05/2026 | <https://youtu.be/-t5h4N6vfBs?si=GeVdhO9IEDjzzS_D> <br><https://youtu.be/e7XeKdOVq40?si=T3I4pgPoEfVytcU3> <br><https://youtu.be/yAR6QRT3N1k?si=GQghyBwLCpijrDON> <br><https://youtu.be/hKr_TfGP7NY?si=gR2MqaLAFrqL-KBo> <br><https://youtu.be/6IHNDJ85aoQ?si=M0puk6DJpliO7ahf> <br><https://youtu.be/_v_43Wi7zjo?si=qNDVWzKcQFNO2mGh> <br><https://youtu.be/Ew3QRaKJQSA?si=xNvXvD8yFhnSMJby> |
-| 2 | - Tìm hiểu EC2 Auto Scaling <br> - Xem tổng quan EFS, FSx, Lightsail và MGN <br> - Ghi lại trường hợp sử dụng của từng dịch vụ | 18/05/2026 | 18/05/2026 | <https://youtu.be/bbLcPitXJSY?si=eyVnxvL9ho0LpUYy> <br><https://youtu.be/hFVYG8WqfU0?si=9Px4wmR4IRZxk15n> |
-| 3 | - Triển khai AWS Backup <br> - Tạo backup plan <br> - Kiểm thử restore và dọn dẹp sau restore | 19/05/2026 | 19/05/2026 | <https://000013.awsstudygroup.com/> |
-| 4 | - Tạo S3 bucket cho Storage Gateway <br> - Khởi tạo EC2 phục vụ Storage Gateway <br> - Tạo gateway và file share <br> - Dọn dẹp toàn bộ tài nguyên | 20/05/2026 | 20/05/2026 | <https://000024.awsstudygroup.com/> |
-| 5 | - Tạo bucket và upload dữ liệu <br> - Bật static website hosting <br> - Cấu hình CloudFront và kiểm thử website <br> - Xóa website, distribution và bucket sau khi hoàn tất | 21/05/2026 | 21/05/2026 | <https://000057.awsstudygroup.com/> |
+### Công việc trong tuần:
+* 15/05/2026: Xem video lý thuyết module 5 và tìm hiểu nền tảng IAM, mã hóa, giám sát bảo mật và quản trị đa tài khoản.  
+  Link: <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i>
+* 16/05/2026: Tìm hiểu AWS Security Hub và AWS Config, kích hoạt Security Hub CSPM và đánh giá các chuẩn bảo mật.  
+  Link: <https://000018.awsstudygroup.com/>
+* 17/05/2026: Xây dựng cơ chế tự động tối ưu chi phí EC2 bằng AWS Lambda, kết hợp VPC Flow Logs, CloudWatch, SNS và Lambda để tự động dừng EC2 khi cần.  
+  Link: <https://000022.awsstudygroup.com/>
+* 18/05/2026: Thực hành chiến lược gắn thẻ, quản lý EC2 qua Tags, tạo Resource Group và lưu nhóm tài nguyên theo điều kiện tag.  
+  Link: <https://000027.awsstudygroup.com/>
+* 19/05/2026: Xây dựng IAM Policy dựa trên tag và thực hành Permission Boundary để kiểm soát quyền của nhóm DoiPho và Dev.  
+  Link: <https://000028.awsstudygroup.com/> <https://000030.awsstudygroup.com/>
+* 20/05/2026: Thực hành mã hóa dữ liệu bằng AWS KMS, theo dõi truy cập bằng CloudTrail Data Events và phân tích log bằng Athena.  
+  Link: <https://000033.awsstudygroup.com/>
+* 21/05/2026: Kiểm thử IAM Role và Condition.  
+  Link: <https://000044.awsstudygroup.com/>
 
-### Kết quả tuần 5:
+### Kết quả đạt được:
 **Tổng quan:**
 
-Tuần này giúp tôi nối thêm phần compute với lưu trữ và phân phối nội dung. Tôi hiểu rõ hơn cách AWS Backup, Storage Gateway và CloudFront có thể hỗ trợ một hệ thống cloud ở những tình huống rất khác nhau.
+Tuần này giúp tôi hiểu rõ hơn cách AWS hỗ trợ bảo mật, kiểm soát quyền và tối ưu chi phí. Tôi cũng biết cách giám sát tài nguyên theo tag và kiểm tra truy cập bằng các dịch vụ ghi log.
 
 **Điều tôi rút ra:**
 
-* EBS và Instance Store phục vụ các nhu cầu lưu trữ khác nhau.
-* Auto Scaling giúp hệ thống linh hoạt hơn khi tải tăng giảm.
-* Backup và restore là phần không thể thiếu khi làm việc với dữ liệu.
-* S3 kết hợp CloudFront có thể dùng để phát hành website tĩnh nhanh và gọn.
+* Security Hub và AWS Config giúp phát hiện và theo dõi cấu hình chưa an toàn.
+* Lambda có thể được dùng để tự động hóa phản ứng khi phát hiện bất thường.
+* Tagging là cách quản lý tài nguyên rất hiệu quả khi dự án có nhiều môi trường.
+* KMS, CloudTrail và Athena hỗ trợ kiểm tra và phân tích hoạt động truy cập dữ liệu.
 
 **Phần thực hành:**
 
-* Tạo backup plan và kiểm tra restore.
-* Tạo Storage Gateway và file share.
-* Đưa dữ liệu lên S3 và bật static website hosting.
-* Cấu hình CloudFront để phân phối nội dung website.
-* Dọn dẹp tài nguyên sau lab.
+* Bật Security Hub CSPM và xem các chuẩn đánh giá.
+* Dùng Lambda để tự động dừng EC2 theo điều kiện giám sát.
+* Tổ chức tài nguyên bằng tags và Resource Group.
+* Thực hành Permission Boundary, KMS và kiểm thử IAM Condition.

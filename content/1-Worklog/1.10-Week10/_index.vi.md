@@ -1,43 +1,35 @@
 ---
 title: "Worklog Tuần 10"
-date: 2026-06-19
+date: 2026-06-20
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
 ### Mục tiêu tuần 10:
-* Hiểu cách IAM Identity Center hỗ trợ truy cập tập trung.
-* Biết vai trò của AWS Organizations và Organization Unit.
-* Làm quen với quản lý nhiều tài khoản AWS.
-* Cấu hình user, group và permission set.
-* Củng cố nguyên tắc least privilege trong môi trường nhiều tài khoản.
+* Kiểm thử các phần front-end đã thiết kế.
+* Cập nhật worklog và các blog liên quan của nhóm.
+* Bổ sung thông tin tham gia workshop và sự kiện.
+* Theo dõi tiến độ chuẩn bị cho các tuần hoàn thiện dự án tiếp theo.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --- | --- | --- | --- |
-| 6 | - Tìm hiểu IAM Identity Center <br> - So sánh IAM thông thường và IAM Identity Center <br> - Ghi lại lợi ích của truy cập tập trung | 19/06/2026 | 19/06/2026 | <https://000012.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Tìm hiểu AWS Organizations <br> - Tạo hoặc mô phỏng AWS Account trong Organizations <br> - Ghi lại cách chia tài khoản theo team hoặc project | 22/06/2026 | 22/06/2026 | <https://000012.awsstudygroup.com/> |
-| 3 | - Cấu hình IAM Identity Center <br> - Tạo user/group hoặc kiểm tra identity store <br> - Tìm hiểu permission set | 23/06/2026 | 23/06/2026 | <https://000012.awsstudygroup.com/> |
-| 4 | - Tìm hiểu AWS CLI trong bối cảnh IAM Identity Center <br> - Ghi chú time-based access control <br> - Tìm hiểu customer managed policies | 24/06/2026 | 24/06/2026 | <https://000012.awsstudygroup.com/> |
-| 5 | - Rà soát kiến trúc bảo mật nhiều tài khoản <br> - Kiểm tra nguyên tắc least privilege <br> - Dọn dẹp tài nguyên sau lab | 25/06/2026 | 25/06/2026 | <https://000012.awsstudygroup.com/> |
+### Công việc trong tuần:
+* 20/06/2026: Thực hiện kiểm thử đồ án trên front-end đã thiết kế.  
+* 23/06/2026: Cập nhật worklog và các blog của nhóm trên group Facebook của AWS.  
+* 24/06/2026: Cập nhật các event đã tham dự vào workshop cá nhân.  
 
-### Kết quả tuần 10:
+### Kết quả đạt được:
 **Tổng quan:**
 
-Tuần này giúp tôi nhìn rõ hơn cách AWS quản lý truy cập ở cấp tổ chức. Tôi hiểu cách IAM Identity Center, Organizations và permission set phối hợp để phân quyền cho nhiều tài khoản một cách gọn hơn.
+Tuần này tập trung vào việc rà soát lại phần giao diện và hoàn thiện nội dung báo cáo cá nhân. Tôi cũng giữ cho các tài liệu dự án được cập nhật đồng bộ với tiến độ thực tế.
 
-**Điều tôi ghi nhớ:**
+**Điều tôi rút ra:**
 
-* IAM Identity Center phù hợp cho truy cập tập trung.
-* Organizations giúp sắp xếp nhiều tài khoản theo cấu trúc rõ ràng.
-* Permission set làm cho việc cấp quyền nhất quán hơn.
-* Least privilege vẫn là nguyên tắc quan trọng nhất.
+* Kiểm thử sớm giúp phát hiện vấn đề trên front-end trước khi đi sâu hơn vào triển khai.
+* Worklog và blog cần được cập nhật đều để phản ánh đúng quá trình làm việc.
+* Việc ghi nhận sự kiện và workshop giúp hồ sơ cá nhân đầy đủ hơn.
 
 **Phần thực hành:**
 
-* Tạo hoặc mô phỏng account trong Organizations.
-* Tạo user/group trong IAM Identity Center.
-* Gán permission set.
-* Kiểm tra quyền truy cập.
-* Rà soát cấu hình bảo mật và dọn dẹp lab.
+* Kiểm tra giao diện front-end.
+* Cập nhật tài liệu nhóm và cá nhân.
+* Bổ sung thông tin sự kiện vào workshop.

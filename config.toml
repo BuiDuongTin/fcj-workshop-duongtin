@@ -1,7 +1,9 @@
 baseURL = "https://BuiDuongTin.github.io/fcj-workshop-duongtin/"
+languageCode = "en-US"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
@@ -25,7 +27,7 @@ home = [ "HTML", "RSS", "JSON"]
 [Languages.en]
 title = "Internship Report"
 weight = 1
-label = "English"
+languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
@@ -36,7 +38,7 @@ weight = 20
 [Languages.vi]
 title = "Báo cáo thực tập"
 weight = 2
-label = "Tiếng Việt"
+languageName = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"

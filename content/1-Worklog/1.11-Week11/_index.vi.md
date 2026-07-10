@@ -7,36 +7,29 @@ pre: " <b> 1.11. </b> "
 ---
 
 ### Mục tiêu tuần 11:
-* Hiểu cách quản lý chi phí với AWS Budgets.
-* Biết kiểm tra chi phí trong Billing.
-* Tạo cảnh báo khi chi phí vượt ngưỡng.
-* Nhận diện các tài nguyên dễ phát sinh phí.
-* Tập thói quen tối ưu chi phí khi học và làm lab.
+* Chạy thử đồ án Hashop trên AWS và kiểm thử các luồng xử lý chính.
+* Tinh chỉnh giao diện để đồng bộ với các thành viên trong nhóm.
+* Hoàn thiện các hạng mục còn thiếu trong workshop cá nhân.
+* Rà soát lại nội dung và hình ảnh trước khi chốt báo cáo.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --- | --- | --- | --- |
-| 6 | - Tìm hiểu AWS Budgets <br> - Ghi lại vai trò của Cost Budget <br> - Nêu lý do nên tạo budget khi thực hành AWS | 26/06/2026 | 26/06/2026 | <https://000007.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Tạo hoặc kiểm tra Cost Budget <br> - Cấu hình ngưỡng cảnh báo <br> - Thiết lập email nhận cảnh báo | 29/06/2026 | 29/06/2026 | <https://000007.awsstudygroup.com/> |
-| 3 | - Tìm hiểu Usage Budget, RI Budget và Savings Plans Budget <br> - Ghi lại trường hợp sử dụng của từng loại budget | 30/06/2026 | 30/06/2026 | <https://000007.awsstudygroup.com/> |
-| 4 | - Rà soát các tài nguyên dễ phát sinh chi phí <br> - Kiểm tra EC2, RDS, NAT Gateway, Load Balancer, CloudWatch Logs, Elastic IP và Snapshot | 01/07/2026 | 01/07/2026 | <https://000007.awsstudygroup.com/> |
-| 5 | - Tổng hợp checklist tối ưu chi phí <br> - Kiểm tra Billing Dashboard <br> - Chuẩn bị nội dung tổng kết chương trình | 02/07/2026 | 02/07/2026 | <https://000007.awsstudygroup.com/> |
+### Công việc trong tuần:
+* 26/06/2026: Chạy thử đồ án Hashop trên AWS và kiểm thử các luồng xử lý.  
+* 27/06/2026: Tinh chỉnh giao diện để đồng bộ với giao diện của các thành viên khác trong nhóm, trao đổi và tiếp tục hoàn thiện đồ án.  
+* 01/07/2026: Hoàn thiện workshop cá nhân, kiểm tra các mốc thời gian và bổ sung thêm hình ảnh.  
 
-### Kết quả tuần 11:
+### Kết quả đạt được:
 **Tổng quan:**
 
-Tuần này giúp tôi nhìn chi phí AWS theo cách chủ động hơn. Tôi biết cần theo dõi budget, đọc Billing và rà lại tài nguyên sau mỗi lab để tránh quên tắt những thứ không còn dùng.
+Tuần này giúp tôi hoàn thiện rõ hơn cả phần chạy thử lẫn phần tài liệu cá nhân. Tôi cũng có cơ hội điều chỉnh giao diện để dự án đồng bộ hơn với nhóm.
 
-**Điều tôi ghi nhớ:**
+**Điều tôi rút ra:**
 
-* AWS Budgets là công cụ cảnh báo rất hữu ích.
-* Cost, usage và savings plan là những góc nhìn khác nhau khi theo dõi chi tiêu.
-* EC2, RDS, NAT Gateway, Load Balancer và Logs dễ tạo ra phí nếu để chạy lâu.
-* Dọn dẹp tài nguyên là một phần của quy trình làm lab.
+* Chạy thử thực tế là bước cần thiết trước khi chốt dự án.
+* Đồng bộ giao diện giúp sản phẩm nhìn thống nhất hơn.
+* Workshop cá nhân cần được kiểm tra kỹ về nội dung và hình ảnh để tránh thiếu sót.
 
 **Phần thực hành:**
 
-* Tạo hoặc kiểm tra budget.
-* Cấu hình cảnh báo qua email.
-* Rà soát các tài nguyên đang hoạt động.
-* Viết checklist dọn dẹp sau lab.
+* Kiểm thử ứng dụng trên AWS.
+* Chỉnh sửa giao diện theo góp ý của nhóm.
+* Hoàn thiện workshop cá nhân với nội dung đầy đủ hơn.

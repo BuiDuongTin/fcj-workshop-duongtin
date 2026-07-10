@@ -7,36 +7,33 @@ pre: " <b> 1.9. </b> "
 ---
 
 ### Mục tiêu tuần 9:
-* Hiểu vai trò của monitoring và logging trên AWS.
-* Làm quen với Amazon CloudWatch.
-* Theo dõi metrics, logs, alarms và dashboard.
-* Biết cách tạo cảnh báo khi tài nguyên vượt ngưỡng.
+* Chọn đề tài cho đồ án và xác định hướng triển khai.
+* Bắt đầu xây dựng worklog và thử nghiệm cách xuất bản nội dung.
+* Thiết kế giao diện front-end cho đồ án.
+* Làm quen với mô hình hạ tầng AWS bằng CDK và TypeScript.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --- | --- | --- | --- |
-| 6 | - Tìm hiểu tổng quan Amazon CloudWatch <br> - Nắm vai trò của metrics, logs, alarms và dashboard <br> - Ghi lại các chỉ số quan trọng cần theo dõi | 12/06/2026 | 12/06/2026 | <https://000008.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Xem CloudWatch Metrics <br> - Kiểm tra CPU, network, disk hoặc các chỉ số liên quan <br> - So sánh metric bình thường và bất thường | 15/06/2026 | 15/06/2026 | <https://000008.awsstudygroup.com/> |
-| 3 | - Tìm hiểu CloudWatch Logs <br> - Quan sát log từ tài nguyên AWS <br> - Ghi lại cách log hỗ trợ troubleshooting | 16/06/2026 | 16/06/2026 | <https://000008.awsstudygroup.com/> |
-| 4 | - Tạo CloudWatch Alarm cơ bản <br> - Cấu hình cảnh báo theo ngưỡng CPU hoặc lỗi <br> - Kiểm tra trạng thái alarm | 17/06/2026 | 17/06/2026 | <https://000008.awsstudygroup.com/> |
-| 5 | - Tạo hoặc xem CloudWatch Dashboard <br> - Gom các metric quan trọng vào dashboard <br> - Dọn dẹp tài nguyên sau lab | 18/06/2026 | 18/06/2026 | <https://000008.awsstudygroup.com/> |
+### Công việc trong tuần:
+* 12/06/2026: Thảo luận lựa chọn đề tài cho đồ án.  
+* 14/06/2026: Tạo các worklog theo tuần và thử nghiệm deploy dự án lên GitHub Pages.  
+* 16/06/2026: Thiết kế front-end cho đồ án Hashop.  
+* 17/06/2026: Triển khai hạ tầng AWS theo mô hình IaC với AWS CDK và TypeScript, tạo VPC, EC2 public, RDS MariaDB private và cấu hình Security Group.  
+  Link: <https://000038.awsstudygroup.com/>
 
-### Kết quả tuần 9:
+### Kết quả đạt được:
 **Tổng quan:**
 
-Tuần này cho tôi thấy monitoring không chỉ để xem số liệu mà còn để hiểu hệ thống đang vận hành ra sao. CloudWatch giúp tôi liên kết metrics, logs và cảnh báo thành một quy trình theo dõi khá rõ ràng.
+Tuần này đánh dấu giai đoạn chuyển từ học lab sang làm đồ án. Tôi đã xác định được đề tài, bắt đầu hoàn thiện tài liệu theo tuần và xây dựng nền tảng hạ tầng đầu tiên cho dự án.
 
-**Điều tôi ghi nhớ:**
+**Điều tôi rút ra:**
 
-* Metrics cho biết trạng thái tài nguyên.
-* Logs hỗ trợ điều tra sự cố.
-* Alarm giúp phản ứng sớm khi có dấu hiệu bất thường.
-* Dashboard giúp nhìn hệ thống ở một nơi duy nhất.
+* Chọn đề tài sớm giúp việc triển khai và chia việc rõ ràng hơn.
+* Worklog là công cụ quan trọng để theo dõi tiến độ từng tuần.
+* Front-end và hạ tầng cần được nghĩ song song ngay từ đầu.
+* CDK giúp mô tả hạ tầng AWS theo hướng code, thuận lợi cho việc tái triển khai.
 
 **Phần thực hành:**
 
-* Quan sát CloudWatch Metrics.
-* Kiểm tra CloudWatch Logs.
-* Tạo CloudWatch Alarm.
-* Xem CloudWatch Dashboard.
-* Thêm lớp monitoring vào sơ đồ kiến trúc.
+* Thống nhất hướng đi của đồ án.
+* Tạo và thử nghiệm hệ thống worklog.
+* Phác thảo giao diện front-end.
+* Dựng nền tảng AWS ban đầu cho dự án.

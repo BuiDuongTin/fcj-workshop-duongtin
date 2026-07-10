@@ -7,35 +7,38 @@ pre: " <b> 1.2. </b> "
 ---
 
 ### Mục tiêu tuần 2:
-* Hiểu cách IAM bảo vệ tài khoản AWS.
-* Phân biệt Root User, IAM User, Group, Role và Policy.
-* Thực hành phân quyền theo nguyên tắc least privilege.
-* Làm quen với thao tác switch role trong Console.
+* Hiểu cách AWS tổ chức mạng với VPC và các thành phần liên quan.
+* Nắm được cách kết nối giữa nhiều môi trường thông qua peering, resolver và Transit Gateway.
+* Làm quen với khái niệm định tuyến và phân giải DNS trong mô hình hybrid.
+* Biết cách kiểm tra kết nối giữa các VPC và ghi chú các điểm hạn chế của từng mô hình.
 
 ### Công việc trong tuần:
-| Thứ | Nội dung | Bắt đầu | Hoàn thành | Tài liệu |
-| --- | --- | --- | --- | --- |
-| 6 | - Ôn lại khái niệm IAM <br> - So sánh Root User và IAM User <br> - Ghi chú rủi ro khi dùng Root User cho công việc hằng ngày | 24/04/2026 | 24/04/2026 | <https://000002.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Tạo IAM Group và IAM User <br> - Gán user vào group phù hợp <br> - Đăng nhập Console bằng IAM User để kiểm tra quyền | 27/04/2026 | 27/04/2026 | <https://000002.awsstudygroup.com/> |
-| 3 | - Tìm hiểu IAM Policy <br> - Phân biệt policy do AWS quản lý và policy do người dùng tự tạo <br> - Gán policy và kiểm tra lại quyền truy cập | 28/04/2026 | 28/04/2026 | <https://000002.awsstudygroup.com/> |
-| 4 | - Tìm hiểu IAM Role <br> - Tạo role cho người dùng vận hành <br> - Ghi lại điểm khác nhau giữa role và quyền gán trực tiếp | 29/04/2026 | 29/04/2026 | <https://000002.awsstudygroup.com/> |
-| 5 | - Thực hành switch role <br> - Cấu hình quyền cho phép đổi role <br> - Dọn dẹp tài nguyên sau khi hoàn thành lab | 30/04/2026 | 30/04/2026 | <https://000002.awsstudygroup.com/> |
+* 25/04/2026: Xem video lý thuyết module 2 và tìm hiểu các dịch vụ mạng trên AWS như VPC, Security Group, Internet Gateway, EC2 và CloudFormation.  
+  Link: <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i>
+* 26/04/2026: Thiết kế và triển khai VPC theo tiêu chuẩn AWS Well-Architected Framework, đồng thời cấu hình các thành phần bảo mật mạng quan trọng.  
+  Link: <https://000003.awsstudygroup.com/vi/>
+* 27/04/2026: Xây dựng mô hình DNS hybrid bằng Route 53 Resolver, tạo hai VPC mô phỏng và cấu hình route tables, Resolver inbound/outbound endpoints cùng resolver rules.  
+  Link: <https://000010.awsstudygroup.com/>
+* 28/04/2026: Thực hiện VPC Peering thủ công giữa hai VPC, cấu hình routing và security group, rồi kiểm tra giao tiếp qua private IP.  
+  Link: <https://000019.awsstudygroup.com/>
+* 29/04/2026: Triển khai kiến trúc hub-and-spoke với AWS Transit Gateway, gắn nhiều VPC, kiểm tra route propagation và xác minh kết nối end-to-end.  
+  Link: <https://000020.awsstudygroup.com/>
 
-### Kết quả tuần 2:
+### Kết quả đạt được:
 **Tổng quan:**
 
-Tuần này giúp tôi hiểu rõ hơn cách AWS kiểm soát truy cập bằng IAM. Sau khi thực hành, tôi có thể tạo user, group, role và gán quyền theo cách an toàn hơn thay vì cấp quyền quá rộng.
+Tuần này giúp tôi hiểu rõ hơn cách AWS tổ chức mạng, đặc biệt là cách VPC, peering, resolver và Transit Gateway hỗ trợ kết nối giữa nhiều môi trường khác nhau.
 
 **Điều tôi rút ra:**
 
-* Root User chỉ nên dùng cho những tác vụ quản trị đặc biệt.
-* IAM User, Group và Role là bộ ba rất quan trọng trong quản lý quyền.
-* Policy cần được thiết kế sát nhu cầu, không cấp dư.
-* Switch role là cách hữu ích để tách vai trò làm việc và vai trò quản trị.
+* VPC là nền tảng để tự thiết kế mạng trên AWS.
+* Route table, gateway và subnet quyết định luồng traffic.
+* Route 53 Resolver hỗ trợ mô hình DNS hybrid giữa on-premises và AWS.
+* Transit Gateway là lựa chọn phù hợp khi cần kết nối nhiều VPC theo mô hình hub-and-spoke.
 
 **Phần thực hành:**
 
-* Tạo group và user trong IAM.
-* Gán policy cho đúng đối tượng.
-* Tạo role và chuyển sang role đó để kiểm tra quyền.
-* Dọn dẹp tài nguyên IAM sau lab.
+* Thiết kế và triển khai VPC theo yêu cầu bài lab.
+* Cấu hình kết nối giữa nhiều VPC bằng peering và TGW.
+* Kiểm tra đường đi của traffic và kết quả ping giữa các mạng.
+* Ghi chú lại các hạn chế và điểm cần chú ý của từng mô hình kết nối.
