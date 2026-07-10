@@ -13,16 +13,13 @@ pre: " <b> 1.4. </b> "
 * Ôn lại các khái niệm IAM cơ bản và thực hành Switch Role.
 
 ### Công việc trong tuần:
-* 08/05/2026: Xem video lý thuyết module 4, tìm hiểu dịch vụ lưu trữ trên AWS, static website và CORS.  
-  Link: <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i>
-* 09/05/2026: Tạo Storage Gateway, tạo File Shares và kết nối File Shares ở máy on-premise.  
-  Link: <https://000024.awsstudygroup.com/>
-* 10/05/2026: Thiết lập AWS Backup Plan và Backup Vault, thực hành restore và dọn dẹp tài nguyên sau kiểm thử.  
-  Link: <https://000013.awsstudygroup.com/>
-* 11/05/2026: Triển khai Amazon FSx for Windows File Server, tích hợp với Microsoft Active Directory và kiểm thử SMB từ Linux EC2.  
-  Link: <https://000025.awsstudygroup.com/>
-* 13/05/2026: Học các khái niệm IAM cốt lõi, tạo admin group/user, cấu hình Admin role, tạo OperatorUser và kiểm thử Switch Role.  
-  Link: <https://000002.awsstudygroup.com/>
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Xem video lý thuyết module 4 trên YouTube <br> - Tìm hiểu về dịch vụ lưu trữ trên AWS <br> - Tìm hiểu về static website và CORS | 08/05/2026 | 08/05/2026 | <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Tạo Storage Gateway <br> - Tạo File Shares <br> - Kết nối File Shares ở máy on-premise | 09/05/2026 | 09/05/2026 | <https://000024.awsstudygroup.com/> |
+| 3 | - Thiết lập chính sách sao lưu trên AWS Backup bằng cách tạo Backup Plan và Backup Vault <br> - Áp dụng tag-based assignment để tự động đưa EC2 vào rule sao lưu <br> - Thực hiện diễn tập khôi phục dữ liệu và dọn dẹp tài nguyên sau kiểm thử | 10/05/2026 | 10/05/2026 | <https://000013.awsstudygroup.com/> |
+| 4 | - Triển khai Amazon FSx for Windows File Server <br> - Tích hợp FSx với Microsoft Active Directory <br> - Kiểm thử SMB từ Linux EC2 và xác minh đồng bộ file giữa các node | 11/05/2026 | 11/05/2026 | <https://000025.awsstudygroup.com/> |
+| 5 | - Học các khái niệm IAM cốt lõi: root account, account ID, group, policy, role <br> - Tạo admin group/user, cấu hình Admin role, tạo OperatorUser và kiểm thử Switch Role | 13/05/2026 | 13/05/2026 | <https://000002.awsstudygroup.com/> |
 
 ### Kết quả đạt được:
 **Tổng quan:**

@@ -13,14 +13,12 @@ pre: " <b> 1.3. </b> "
 * Nắm được quy trình triển khai Storage Gateway và S3 Static Website.
 
 ### Công việc trong tuần:
-* 01/05/2026: Xem video lý thuyết module 3 và tìm hiểu cách triển khai VM trên AWS cùng các dịch vụ hỗ trợ compute.  
-  Link: <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i>
-* 03/05/2026: Thiết lập chính sách sao lưu trên AWS Backup, tạo Backup Plan và Backup Vault, thực hành restore và dọn dẹp tài nguyên sau kiểm thử.  
-  Link: <https://000013.awsstudygroup.com/>
-* 05/05/2026: Tạo Storage Gateway, tạo File Shares và cấu hình kết nối File Shares từ máy on-premise.  
-  Link: <https://000024.awsstudygroup.com/>
-* 06/05/2026: Tìm hiểu S3 Bucket, S3 Object, triển khai static website trên S3, bật CloudFront, và thực hành Versioning, move/copy object sang region khác.  
-  Link: <https://000057.awsstudygroup.com/>
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Xem video lý thuyết module 3 trên YouTube <br> - Tìm hiểu cách triển khai VM trên AWS <br> - Tìm hiểu dịch vụ bổ trợ compute: EC2 Auto Scaling, EFS/FSx, Lightsail, MGN | 01/05/2026 | 01/05/2026 | <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Thiết lập chính sách sao lưu trên AWS Backup bằng cách tạo Backup Plan và Backup Vault <br> - Áp dụng tag-based assignment để tự động đưa EC2 vào rule sao lưu <br> - Thực hiện diễn tập khôi phục dữ liệu và dọn dẹp tài nguyên sau kiểm thử | 03/05/2026 | 03/05/2026 | <https://000013.awsstudygroup.com/> |
+| 3 | - Tạo Storage Gateway <br> - Tạo File Shares <br> - Kết nối File Shares ở máy on-premise | 05/05/2026 | 05/05/2026 | <https://000024.awsstudygroup.com/> |
+| 4 | - Tìm hiểu các khái niệm của Amazon S3 như S3 Bucket và S3 Object <br> - Triển khai static website trên S3 và kiểm tra hoạt động <br> - Bật CloudFront, thực hành Versioning, di chuyển object và sao chép object sang region khác | 06/05/2026 | 06/05/2026 | <https://000057.awsstudygroup.com/> |
 
 ### Kết quả đạt được:
 **Tổng quan:**

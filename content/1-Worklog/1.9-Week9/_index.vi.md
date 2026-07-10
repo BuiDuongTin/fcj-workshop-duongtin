@@ -13,11 +13,12 @@ pre: " <b> 1.9. </b> "
 * Làm quen với mô hình hạ tầng AWS bằng CDK và TypeScript.
 
 ### Công việc trong tuần:
-* 12/06/2026: Thảo luận lựa chọn đề tài cho đồ án.  
-* 14/06/2026: Tạo các worklog theo tuần và thử nghiệm deploy dự án lên GitHub Pages.  
-* 16/06/2026: Thiết kế front-end cho đồ án Hashop.  
-* 17/06/2026: Triển khai hạ tầng AWS theo mô hình IaC với AWS CDK và TypeScript, tạo VPC, EC2 public, RDS MariaDB private và cấu hình Security Group.  
-  Link: <https://000038.awsstudygroup.com/>
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Thảo luận lựa chọn đề tài cho đồ án | 12/06/2026 | 12/06/2026 |  |
+| 2 | - Tạo các worklog theo tuần và thử nghiệm deploy dự án lên GitHub Pages | 14/06/2026 | 14/06/2026 |  |
+| 3 | - Thiết kế front-end cho đồ án Hashop | 16/06/2026 | 16/06/2026 |  |
+| 4 | - Triển khai hạ tầng AWS theo mô hình IaC với AWS CDK và TypeScript <br> - Tạo VPC, EC2 public, RDS MariaDB private, cấu hình Security Group và sử dụng UserData để tự động khởi tạo database | 17/06/2026 | 17/06/2026 | <https://000038.awsstudygroup.com/> |
 
 ### Kết quả đạt được:
 **Tổng quan:**

@@ -13,14 +13,12 @@ pre: " <b> 1.8. </b> "
 * Nắm cách dùng CloudWatch Agent để thu thập thêm chỉ số hệ thống và tối ưu lựa chọn instance.
 
 ### Công việc trong tuần:
-* 06/06/2026: Xây dựng cơ chế tự động tối ưu chi phí EC2 bằng AWS Lambda, kết hợp giám sát qua VPC Flow Logs và CloudWatch.  
-  Link: <https://000074.awsstudygroup.com/>
-* 08/06/2026: Thực hành tự động hóa phát hành ứng dụng trên EC2 bằng AWS DevOps, thiết lập pipeline giữa GitHub, CodePipeline, S3 và CodeDeploy.  
-  Link: <https://000017.awsstudygroup.com/>
-* 10/06/2026: Triển khai Grafana trên EC2 và kết nối dữ liệu giám sát từ CloudWatch để tạo dashboard theo dõi CPUUtilization.  
-  Link: <https://000029.awsstudygroup.com/>
-* 11/06/2026: Thực hiện tối ưu hóa lựa chọn loại instance EC2 bằng cách phân tích tài nguyên thực tế và cài đặt CloudWatch Agent.  
-  Link: <https://000032.awsstudygroup.com/>
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Xây dựng cơ chế tự động tối ưu chi phí EC2 bằng AWS Lambda <br> - Thiết lập quy trình giám sát lưu lượng ICMP thông qua VPC Flow Logs, CloudWatch Metric Filter, CloudWatch Alarm, SNS và Lambda | 06/06/2026 | 06/06/2026 | <https://000074.awsstudygroup.com/> |
+| 2 | - Thực hành tự động hóa quá trình phát hành ứng dụng trên EC2 bằng bộ công cụ AWS DevOps <br> - Thiết lập pipeline giữa GitHub, CodePipeline, S3 và CodeDeploy | 08/06/2026 | 08/06/2026 | <https://000017.awsstudygroup.com/> |
+| 3 | - Thực hành triển khai Grafana trên EC2 và kết nối dữ liệu giám sát từ CloudWatch <br> - Cấu hình VPC, Security Group, IAM Role và tạo dashboard theo dõi CPUUtilization | 10/06/2026 | 10/06/2026 | <https://000029.awsstudygroup.com/> |
+| 4 | - Thực hiện tối ưu hóa việc lựa chọn loại instance EC2 thông qua việc phân tích tài nguyên thực tế <br> - Triển khai CloudWatch Agent nhằm thu thập thông tin bộ nhớ và cung cấp dữ liệu đầu vào cho các công cụ đánh giá hiệu năng | 11/06/2026 | 11/06/2026 | <https://000032.awsstudygroup.com/> |
 
 ### Kết quả đạt được:
 **Tổng quan:**

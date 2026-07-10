@@ -13,9 +13,11 @@ pre: " <b> 1.10. </b> "
 * Theo dõi tiến độ chuẩn bị cho các tuần hoàn thiện dự án tiếp theo.
 
 ### Công việc trong tuần:
-* 20/06/2026: Thực hiện kiểm thử đồ án trên front-end đã thiết kế.  
-* 23/06/2026: Cập nhật worklog và các blog của nhóm trên group Facebook của AWS.  
-* 24/06/2026: Cập nhật các event đã tham dự vào workshop cá nhân.  
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Thực hiện kiểm thử đồ án trên front-end đã thiết kế | 20/06/2026 | 20/06/2026 |  |
+| 2 | - Cập nhật worklog và các blog của nhóm trên group Facebook của AWS | 23/06/2026 | 23/06/2026 |  |
+| 3 | - Cập nhật các event đã tham dự vào workshop cá nhân | 24/06/2026 | 24/06/2026 |  |
 
 ### Kết quả đạt được:
 **Tổng quan:**

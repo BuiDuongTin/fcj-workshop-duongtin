@@ -13,16 +13,13 @@ pre: " <b> 1.1. </b> "
 * Nhận diện các thành phần nền tảng trong một kiến trúc AWS tổng quát.
 
 ### Công việc trong tuần:
-* 17/04/2026: Xem video lý thuyết module 1, tìm hiểu chương trình First Cloud Journey và xác định các mục tiêu cần đạt được.  
-  Link: <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i>
-* 19/04/2026: Tìm hiểu AWS Free Tier, phân biệt gói miễn phí và gói trả phí, ghi chú các điểm cần cẩn thận để tránh phát sinh chi phí.  
-  Link: <https://000001.awsstudygroup.com/vi/>
-* 20/04/2026: Tìm hiểu AWS Budget, nắm 4 loại ngân sách chính và hiểu cách cảnh báo chi tiêu vượt ngưỡng.  
-  Link: <https://000007.awsstudygroup.com/vi/>
-* 21/04/2026: Tìm hiểu AWS Support, các gói hỗ trợ và cách tạo yêu cầu hỗ trợ trên AWS Support.  
-  Link: <https://000009.awsstudygroup.com/vi/>
-* 22/04/2026: Cài đặt AWS CLI, thiết lập region mặc định và output format, kiểm tra cấu hình bằng lệnh cơ bản.  
-  Link: <https://000011.awsstudygroup.com/vi/>
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Xem video lý thuyết module 1 trên YouTube <br> - Tìm hiểu về chương trình First Cloud Journey <br> - Xác định những mục tiêu cần đạt được trong quá trình tham gia | 17/04/2026 | 17/04/2026 | <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Tìm hiểu AWS Free Tier <br> - Phân biệt gói miễn phí và gói trả phí <br> - Ghi chú các điểm cần cẩn thận để tránh phát sinh chi phí | 19/04/2026 | 19/04/2026 | <https://000001.awsstudygroup.com/vi/> |
+| 3 | - Tìm hiểu AWS Budget <br> - Nắm 4 loại ngân sách chính gồm Cost Budget, Usage Budget, RI Budget và Savings Plans Budget <br> - Hiểu cách cảnh báo chi tiêu vượt ngưỡng | 20/04/2026 | 20/04/2026 | <https://000007.awsstudygroup.com/vi/> |
+| 4 | - Tìm hiểu AWS Support <br> - Nắm các gói hỗ trợ của AWS <br> - Biết cách truy cập và tạo yêu cầu hỗ trợ trên AWS Support | 21/04/2026 | 21/04/2026 | <https://000009.awsstudygroup.com/vi/> |
+| 5 | - Cài đặt AWS CLI <br> - Thiết lập region mặc định và output format <br> - Kiểm tra cấu hình bằng lệnh cơ bản | 22/04/2026 | 22/04/2026 | <https://000011.awsstudygroup.com/vi/> |
 
 ### Kết quả đạt được:
 **Tổng quan:**

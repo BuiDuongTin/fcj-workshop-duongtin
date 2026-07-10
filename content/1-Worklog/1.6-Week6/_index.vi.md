@@ -13,14 +13,12 @@ pre: " <b> 1.6. </b> "
 * Làm quen với WAF để tăng cường bảo vệ ứng dụng web.
 
 ### Công việc trong tuần:
-* 22/05/2026: Xem video lý thuyết module 6, ôn khái niệm cơ sở dữ liệu và tìm hiểu hệ CSDL quan hệ managed trên AWS.  
-  Link: <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i>
-* 23/05/2026: Tích hợp Amazon RDS với ứng dụng Node.js, triển khai MySQL trong private subnet và bảo vệ bằng Security Group chaining.  
-  Link: <https://000005.awsstudygroup.com/>
-* 24/05/2026: Thực hiện migration từ Amazon RDS MySQL sang Amazon RDS MariaDB bằng AWS DMS với Full Load và CDC.  
-  Link: <https://000043.awsstudygroup.com/>
-* 26/05/2026: Triển khai AWS WAF để bảo vệ ứng dụng web, đặt WAF trước ALB và kiểm tra khả năng lọc lưu lượng.  
-  Link: <https://000026.awsstudygroup.com/>
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Xem video lý thuyết module 6 trên YouTube <br> - Ôn lại khái niệm cốt lõi về cơ sở dữ liệu và tiêu chí lựa chọn DB <br> - Học hệ CSDL quan hệ managed trên AWS | 22/05/2026 | 22/05/2026 | <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Nghiên cứu cách tích hợp Amazon RDS với ứng dụng Node.js <br> - Triển khai MySQL trên Amazon RDS trong private subnet <br> - Bảo vệ bằng Security Group chaining | 23/05/2026 | 23/05/2026 | <https://000005.awsstudygroup.com/> |
+| 3 | - Nghiên cứu quy trình chuyển đổi schema và di chuyển cơ sở dữ liệu <br> - Thực hiện migration từ Amazon RDS MySQL sang Amazon RDS MariaDB bằng AWS DMS <br> - Cấu hình source/target endpoint và dùng Full Load kết hợp CDC | 24/05/2026 | 24/05/2026 | <https://000043.awsstudygroup.com/> |
+| 4 | - Triển khai AWS WAF để bảo vệ ứng dụng web <br> - Thiết lập WAF trước ALB, kết nối ALB với EC2 và RDS <br> - Kiểm tra khả năng lọc lưu lượng truy cập | 26/05/2026 | 26/05/2026 | <https://000026.awsstudygroup.com/> |
 
 ### Kết quả đạt được:
 **Tổng quan:**

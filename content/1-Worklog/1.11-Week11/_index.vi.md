@@ -13,9 +13,11 @@ pre: " <b> 1.11. </b> "
 * Rà soát lại nội dung và hình ảnh trước khi chốt báo cáo.
 
 ### Công việc trong tuần:
-* 26/06/2026: Chạy thử đồ án Hashop trên AWS và kiểm thử các luồng xử lý.  
-* 27/06/2026: Tinh chỉnh giao diện để đồng bộ với giao diện của các thành viên khác trong nhóm, trao đổi và tiếp tục hoàn thiện đồ án.  
-* 01/07/2026: Hoàn thiện workshop cá nhân, kiểm tra các mốc thời gian và bổ sung thêm hình ảnh.  
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Chạy thử đồ án Hashop trên AWS và kiểm thử các luồng xử lý | 26/06/2026 | 26/06/2026 |  |
+| 2 | - Tinh chỉnh giao diện để đồng bộ với giao diện của các thành viên khác trong nhóm <br> - Trao đổi với các thành viên nhóm và tiếp tục hoàn thiện đồ án | 27/06/2026 | 27/06/2026 |  |
+| 3 | - Hoàn thiện workshop cá nhân <br> - Kiểm tra nội dung của workshop đảm bảo các mốc thời gian và cập nhật thêm hình ảnh | 01/07/2026 | 01/07/2026 |  |
 
 ### Kết quả đạt được:
 **Tổng quan:**

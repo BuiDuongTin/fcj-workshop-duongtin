@@ -13,9 +13,11 @@ pre: " <b> 1.12. </b> "
 * Hoàn thiện phần báo cáo cuối cùng và chốt các nội dung còn thiếu.
 
 ### Công việc trong tuần:
-* 03/07/2026: Tổng kết toàn bộ quá trình học First Cloud Journey trong 12 tuần.  
-* 05/07/2026: Kiểm thử lỗi sau khi chạy trên CloudFormation template và tiếp tục hoàn thiện dự án nhóm.  
-* 09/07/2026: Kiểm tra độ chính xác của hướng dẫn step-by-step để dự án HaShop có thể được redeploy.  
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 1 | - Tổng kết toàn bộ quá trình học First Cloud Journey trong 12 tuần | 03/07/2026 | 03/07/2026 |  |
+| 2 | - Kiểm thử lỗi sau khi chạy trên CloudFormation template và tiếp tục hoàn thiện dự án nhóm | 05/07/2026 | 05/07/2026 |  |
+| 3 | - Kiểm tra độ chính xác của hướng dẫn step-by-step để dự án HaShop có thể được redeploy | 09/07/2026 | 09/07/2026 |  |
 
 ### Kết quả đạt được:
 **Tổng quan:**
