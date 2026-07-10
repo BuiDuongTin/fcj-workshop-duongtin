@@ -25,12 +25,12 @@ pre: " <b> 1.7. </b> "
 
 Tuần này giúp tôi hiểu cách kết hợp các dịch vụ AWS để phân tích chi phí, triển khai ứng dụng và tự động hóa hạ tầng. Tôi cũng thấy rõ vai trò của CloudFormation trong việc tái tạo môi trường.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
-* CUR, Glue và Athena là bộ công cụ hữu ích cho phân tích dữ liệu chi phí.
-* EC2 vẫn là nền tảng quen thuộc để chạy ứng dụng web cơ bản.
-* CloudWatch hỗ trợ theo dõi hoạt động và phát hiện lỗi khi triển khai.
-* CloudFormation giúp mô tả hạ tầng bằng mã và giảm thao tác thủ công.
+* CUR, AWS Glue và Amazon Athena là bộ công cụ hữu ích để phân tích dữ liệu chi phí trên AWS.
+* Amazon EC2 là nền tảng quen thuộc để triển khai và chạy ứng dụng web.
+* Amazon CloudWatch hỗ trợ theo dõi hoạt động hệ thống và phát hiện lỗi trong quá trình triển khai.
+* AWS CloudFormation cho phép mô tả hạ tầng bằng mã và giảm thao tác thủ công khi triển khai.
 
 **Phần thực hành:**
 

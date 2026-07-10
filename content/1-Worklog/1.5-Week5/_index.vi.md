@@ -29,12 +29,12 @@ pre: " <b> 1.5. </b> "
 
 Tuần này giúp tôi hiểu rõ hơn cách AWS hỗ trợ bảo mật, kiểm soát quyền và tối ưu chi phí. Tôi cũng biết cách giám sát tài nguyên theo tag và kiểm tra truy cập bằng các dịch vụ ghi log.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
-* Security Hub và AWS Config giúp phát hiện và theo dõi cấu hình chưa an toàn.
-* Lambda có thể được dùng để tự động hóa phản ứng khi phát hiện bất thường.
-* Tagging là cách quản lý tài nguyên rất hiệu quả khi dự án có nhiều môi trường.
-* KMS, CloudTrail và Athena hỗ trợ kiểm tra và phân tích hoạt động truy cập dữ liệu.
+* AWS Security Hub và AWS Config giúp phát hiện, theo dõi và đánh giá cấu hình bảo mật.
+* AWS Lambda có thể được dùng để tự động hóa các phản ứng khi hệ thống phát hiện bất thường.
+* Tagging là phương pháp quan trọng để quản lý và phân loại tài nguyên trên AWS.
+* AWS KMS, CloudTrail và Athena hỗ trợ mã hóa, ghi log và phân tích hoạt động truy cập dữ liệu.
 
 **Phần thực hành:**
 

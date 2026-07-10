@@ -25,12 +25,12 @@ pre: " <b> 1.6. </b> "
 
 Tuần này giúp tôi hiểu rõ hơn cách xây dựng và bảo vệ ứng dụng có cơ sở dữ liệu trên AWS. Tôi cũng nắm được cách migration dữ liệu giữa các engine khác nhau bằng DMS.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
-* Amazon RDS phù hợp cho workload giao dịch và cần vận hành đơn giản.
-* Security Group chaining giúp hạn chế truy cập trực tiếp vào RDS từ Internet.
-* AWS DMS hỗ trợ quá trình di chuyển và đồng bộ dữ liệu tương đối linh hoạt.
-* WAF là lớp bảo vệ quan trọng phía trước ứng dụng web.
+* Amazon RDS phù hợp cho workload giao dịch và giúp việc vận hành cơ sở dữ liệu trở nên đơn giản hơn.
+* Security Group chaining là một cách giới hạn truy cập vào RDS từ Internet.
+* AWS DMS hỗ trợ quá trình di chuyển và đồng bộ dữ liệu giữa các hệ quản trị cơ sở dữ liệu.
+* AWS WAF là lớp bảo vệ quan trọng để lọc và giảm thiểu lưu lượng truy cập không mong muốn vào ứng dụng web.
 
 **Phần thực hành:**
 

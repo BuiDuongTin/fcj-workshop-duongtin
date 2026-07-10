@@ -24,7 +24,7 @@ pre: " <b> 1.10. </b> "
 
 Tuần này tập trung vào việc rà soát lại phần giao diện và hoàn thiện nội dung báo cáo cá nhân. Tôi cũng giữ cho các tài liệu dự án được cập nhật đồng bộ với tiến độ thực tế.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
 * Kiểm thử sớm giúp phát hiện vấn đề trên front-end trước khi đi sâu hơn vào triển khai.
 * Worklog và blog cần được cập nhật đều để phản ánh đúng quá trình làm việc.

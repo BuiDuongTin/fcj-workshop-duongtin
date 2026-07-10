@@ -24,7 +24,7 @@ pre: " <b> 1.12. </b> "
 
 Tuần cuối giúp tôi khép lại toàn bộ hành trình học tập và thực hành trong First Cloud Journey. Tôi đã rà soát lại các bước triển khai, kiểm tra lỗi còn tồn đọng và xác nhận lại tính khả thi của việc redeploy.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
 * Tổng kết lại toàn bộ quá trình học giúp nhìn rõ tiến bộ của bản thân.
 * Kiểm thử lại CloudFormation template rất quan trọng trước khi bàn giao hoặc tái triển khai.

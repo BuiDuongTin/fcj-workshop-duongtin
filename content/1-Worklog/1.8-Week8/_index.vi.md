@@ -25,12 +25,12 @@ pre: " <b> 1.8. </b> "
 
 Tuần này giúp tôi hiểu rõ hơn quy trình phát hành ứng dụng, giám sát hệ thống và tối ưu chi phí trên AWS. Tôi cũng biết cách liên kết nhiều dịch vụ để tạo thành một luồng DevOps hoàn chỉnh.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
-* Lambda có thể hỗ trợ tự động hóa phản ứng với tình huống bất thường.
-* CodePipeline và CodeDeploy giúp giảm thao tác deploy thủ công.
-* Grafana là công cụ hữu ích để trực quan hóa dữ liệu CloudWatch.
-* CloudWatch Agent mở rộng khả năng thu thập metrics phục vụ tối ưu instance.
+* AWS Lambda có thể hỗ trợ tự động hóa phản ứng với những tình huống bất thường.
+* AWS CodePipeline và CodeDeploy giúp giảm thao tác triển khai thủ công.
+* Grafana là công cụ hữu ích để trực quan hóa dữ liệu giám sát từ CloudWatch.
+* CloudWatch Agent mở rộng khả năng thu thập metrics để hỗ trợ tối ưu lựa chọn instance.
 
 **Phần thực hành:**
 

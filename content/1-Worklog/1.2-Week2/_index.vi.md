@@ -26,12 +26,12 @@ pre: " <b> 1.2. </b> "
 
 Tuần này giúp tôi hiểu rõ hơn cách AWS tổ chức mạng, đặc biệt là cách VPC, peering, resolver và Transit Gateway hỗ trợ kết nối giữa nhiều môi trường khác nhau.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
-* VPC là nền tảng để tự thiết kế mạng trên AWS.
-* Route table, gateway và subnet quyết định luồng traffic.
-* Route 53 Resolver hỗ trợ mô hình DNS hybrid giữa on-premises và AWS.
-* Transit Gateway là lựa chọn phù hợp khi cần kết nối nhiều VPC theo mô hình hub-and-spoke.
+* Amazon VPC là nền tảng để tự xây dựng mạng riêng trên AWS.
+* Route table, gateway và subnet quyết định cách lưu lượng được định tuyến trong hệ thống.
+* Route 53 Resolver hỗ trợ phân giải DNS giữa môi trường on-premises và AWS trong mô hình hybrid.
+* AWS Transit Gateway là dịch vụ trung tâm phù hợp khi cần kết nối nhiều VPC theo mô hình hub-and-spoke.
 
 **Phần thực hành:**
 

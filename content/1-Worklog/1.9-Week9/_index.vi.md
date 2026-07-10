@@ -25,12 +25,12 @@ pre: " <b> 1.9. </b> "
 
 Tuần này đánh dấu giai đoạn chuyển từ học lab sang làm đồ án. Tôi đã xác định được đề tài, bắt đầu hoàn thiện tài liệu theo tuần và xây dựng nền tảng hạ tầng đầu tiên cho dự án.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
-* Chọn đề tài sớm giúp việc triển khai và chia việc rõ ràng hơn.
-* Worklog là công cụ quan trọng để theo dõi tiến độ từng tuần.
-* Front-end và hạ tầng cần được nghĩ song song ngay từ đầu.
-* CDK giúp mô tả hạ tầng AWS theo hướng code, thuận lợi cho việc tái triển khai.
+* Việc chọn đề tài sớm giúp việc triển khai và phân công công việc rõ ràng hơn.
+* Worklog là công cụ quan trọng để theo dõi tiến độ theo từng tuần.
+* Front-end và hạ tầng nên được thiết kế song song ngay từ đầu để tránh lệch hướng.
+* AWS CDK giúp mô tả hạ tầng AWS theo hướng code, thuận lợi cho việc tái triển khai.
 
 **Phần thực hành:**
 

@@ -24,7 +24,7 @@ pre: " <b> 1.11. </b> "
 
 Tuần này giúp tôi hoàn thiện rõ hơn cả phần chạy thử lẫn phần tài liệu cá nhân. Tôi cũng có cơ hội điều chỉnh giao diện để dự án đồng bộ hơn với nhóm.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
 * Chạy thử thực tế là bước cần thiết trước khi chốt dự án.
 * Đồng bộ giao diện giúp sản phẩm nhìn thống nhất hơn.

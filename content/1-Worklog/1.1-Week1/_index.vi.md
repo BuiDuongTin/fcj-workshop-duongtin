@@ -26,12 +26,12 @@ pre: " <b> 1.1. </b> "
 
 Tuần đầu giúp tôi làm quen với môi trường học tập trên AWS và nắm được các công cụ nền tảng để theo dõi chi phí, nhận hỗ trợ và thao tác với dịch vụ.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
-* Free Tier rất hữu ích cho thực hành nhưng vẫn cần theo dõi chi phí cẩn thận.
-* AWS Budget giúp chủ động kiểm soát và cảnh báo chi tiêu.
-* AWS Support là kênh quan trọng khi cần hỗ trợ kỹ thuật.
-* AWS CLI hỗ trợ thao tác nhanh và lặp lại tốt hơn trên Console.
+* AWS Free Tier là môi trường phù hợp để thực hành ban đầu nhưng vẫn phải kiểm soát chi phí.
+* AWS Budget hỗ trợ theo dõi và cảnh báo khi chi tiêu có nguy cơ vượt ngưỡng.
+* AWS Support cung cấp các gói hỗ trợ để người dùng nhận trợ giúp khi gặp sự cố.
+* AWS CLI giúp thao tác với dịch vụ AWS nhanh và thuận tiện hơn so với thao tác thủ công trên Console.
 
 **Phần thực hành:**
 

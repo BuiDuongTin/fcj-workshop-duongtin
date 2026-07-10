@@ -25,12 +25,12 @@ pre: " <b> 1.3. </b> "
 
 Tuần này giúp tôi hiểu rõ hơn cách AWS hỗ trợ compute, backup và lưu trữ. Tôi cũng biết cách triển khai website tĩnh trên S3 và tăng tốc bằng CloudFront.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
-* AWS Backup giúp chuẩn hóa quy trình sao lưu và phục hồi.
-* Storage Gateway là cầu nối hữu ích giữa on-premise và AWS storage.
-* S3 không chỉ dùng để lưu trữ mà còn có thể phục vụ website tĩnh.
-* Versioning và sao chép object là các thao tác quan trọng để quản lý dữ liệu an toàn hơn.
+* AWS Backup giúp chuẩn hóa quy trình sao lưu và phục hồi dữ liệu.
+* Storage Gateway đóng vai trò cầu nối giữa hệ thống on-premise và dịch vụ lưu trữ trên AWS.
+* Amazon S3 có thể được dùng để lưu trữ dữ liệu và triển khai website tĩnh.
+* Versioning, move object và copy object là các thao tác quan trọng trong quản lý dữ liệu trên S3.
 
 **Phần thực hành:**
 

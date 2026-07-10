@@ -26,12 +26,12 @@ pre: " <b> 1.4. </b> "
 
 Tuần này giúp tôi hiểu rõ hơn các dịch vụ lưu trữ và quản trị truy cập trên AWS. Tôi cũng biết cách kết nối storage giữa AWS và môi trường on-premise.
 
-**Điều tôi rút ra:**
+**Kiến thức đã học:**
 
-* S3, Storage Gateway và FSx phục vụ các nhu cầu lưu trữ khác nhau.
-* CORS là khái niệm cần chú ý khi xây dựng ứng dụng web với tài nguyên lưu trữ.
+* Amazon S3, Storage Gateway và FSx phục vụ các nhu cầu lưu trữ khác nhau trên AWS.
+* CORS là cơ chế cần chú ý khi ứng dụng web truy cập tài nguyên từ domain khác.
 * FSx for Windows File Server phù hợp với môi trường cần tương thích SMB và Active Directory.
-* IAM Role và Switch Role giúp tách bạch quyền rõ ràng hơn.
+* IAM Role và Switch Role giúp phân tách quyền truy cập rõ ràng hơn trong quá trình làm việc.
 
 **Phần thực hành:**
 
