@@ -7,35 +7,35 @@ pre: " <b> 1.2. </b> "
 ---
 
 ### Objectives for week 2:
-* Understand how IAM protects AWS accounts.
-* Distinguish Root User, IAM User, Group, Role, and Policy.
-* Practice least-privilege access control.
-* Get comfortable switching roles in the Console.
+* Understand how AWS networking is organized with VPC and related components.
+* Learn how to connect multiple environments using peering, resolver, and Transit Gateway.
+* Get familiar with routing and DNS resolution in a hybrid model.
+* Learn how to check connections between VPCs and note the limits of each model.
 
 ### Tasks for this week:
 | Day | Task | Start Date | End Date | Resources |
 | --- | --- | --- | --- | --- |
-| 6 | - Review IAM basics <br> - Compare Root User and IAM User <br> - Note the risks of using Root User for daily operations | 24/04/2026 | 24/04/2026 | <https://000002.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Create an IAM Group and IAM User <br> - Add users to the appropriate group <br> - Sign in with the IAM User and check permissions | 27/04/2026 | 27/04/2026 | <https://000002.awsstudygroup.com/> |
-| 3 | - Learn IAM Policy <br> - Compare AWS managed policies and customer managed policies <br> - Attach policies and verify access | 28/04/2026 | 28/04/2026 | <https://000002.awsstudygroup.com/> |
-| 4 | - Learn IAM Role <br> - Create a role for operational access <br> - Record the difference between roles and direct permissions | 29/04/2026 | 29/04/2026 | <https://000002.awsstudygroup.com/> |
-| 5 | - Practice role switching <br> - Allow the user to assume the role <br> - Clean up IAM resources after the lab | 30/04/2026 | 30/04/2026 | <https://000002.awsstudygroup.com/> |
+| 1 | - Watch the module 2 theory video on YouTube <br> - Learn about AWS networking services such as VPC, Security Group, Internet Gateway, EC2, and CloudFormation | 25/04/2026 | 25/04/2026 | <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Design and deploy VPC according to the AWS Well-Architected Framework <br> - Configure key network security components <br> - Set up secure connectivity between on-premises and AWS | 26/04/2026 | 26/04/2026 | <https://000003.awsstudygroup.com/vi/> |
+| 3 | - Build a hybrid DNS model with Route 53 Resolver to resolve names across environments <br> - Create on-premises and AWS VPCs, then set up VPC Peering for connectivity <br> - Configure route tables, Resolver inbound/outbound endpoints, and resolver rules | 27/04/2026 | 27/04/2026 | <https://000010.awsstudygroup.com/> |
+| 4 | - Perform manual VPC Peering setup <br> - Create two VPCs with separate CIDR ranges and configure routing and security groups for internal traffic <br> - Verify communication through private IPs | 28/04/2026 | 28/04/2026 | <https://000019.awsstudygroup.com/> |
+| 5 | - Deploy a hub-and-spoke network architecture using AWS Transit Gateway as the central connector <br> - Attach 4 VPCs to the TGW and handle routing issues caused by missing propagation settings <br> - Test end-to-end connectivity and clean up resources to avoid extra cost | 29/04/2026 | 29/04/2026 | <https://000020.awsstudygroup.com/> |
 
 ### Week 2 results:
 **Overview:**
 
-This week gave me a clearer understanding of IAM and access control on AWS. After the labs, I could create users, groups, and roles, and I understood why permissions should be kept as narrow as possible.
+This week helped me understand how AWS networking is built, especially how VPC, peering, resolver, and Transit Gateway connect multiple environments.
 
-**What I learned:**
+**Knowledge learned:**
 
-* Root User should be reserved for special administrative tasks.
-* IAM User, Group, and Role are the core of AWS permission management.
-* Policies should match the real task and avoid over-permission.
-* Role switching helps separate daily work from administrative access.
+* Amazon VPC is the base for building private networks on AWS.
+* Route tables, gateways, and subnets control how traffic is routed.
+* Route 53 Resolver supports hybrid DNS resolution between on-premises and AWS.
+* AWS Transit Gateway is a central service for connecting many VPCs in a hub-and-spoke model.
 
 **Hands-on practice:**
 
-* Creating a group and user in IAM.
-* Attaching policies to the right identities.
-* Creating a role and testing access through it.
-* Cleaning up IAM resources after the lab.
+* Designed and deployed VPCs for the labs.
+* Set up VPC connectivity with peering and TGW.
+* Checked traffic flow and ping results between networks.
+* Noted the limitations and important points of each connectivity model.

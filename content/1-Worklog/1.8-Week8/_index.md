@@ -1,42 +1,40 @@
 ---
 title: "Worklog Week 8"
-date: 2026-06-05
+date: 2026-06-06
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
 ### Objectives for week 8:
-* Understand AWS load balancing and autoscaling.
-* Get familiar with Application Load Balancer, Target Group, and Health Check.
-* Learn Launch Template and its role in an Auto Scaling Group.
-* Observe how systems run across multiple Availability Zones.
+* Learn how to automate the application release process on EC2.
+* Get familiar with the AWS DevOps workflow using GitHub, CodePipeline, S3, and CodeDeploy.
+* Learn how to deploy Grafana and connect CloudWatch monitoring data.
+* Understand how CloudWatch Agent helps collect additional system metrics and improve instance selection.
 
 ### Tasks for this week:
 | Day | Task | Start Date | End Date | Resources |
 | --- | --- | --- | --- | --- |
-| 6 | - Review Elastic Load Balancing <br> - Understand the role of Application Load Balancer <br> - Note how ALB sends requests to multiple EC2 instances | 05/06/2026 | 05/06/2026 | <https://000006.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Learn Target Group and Health Check <br> - Check healthy and unhealthy states <br> - Note how health checks detect failed instances | 08/06/2026 | 08/06/2026 | <https://000006.awsstudygroup.com/> |
-| 3 | - Learn Launch Template <br> - Note AMI, instance type, key pair, and security group in the template <br> - Identify the role of the template in Auto Scaling Group creation | 09/06/2026 | 09/06/2026 | <https://000006.awsstudygroup.com/> |
-| 4 | - Learn Auto Scaling Group <br> - Understand desired, minimum, and maximum capacity <br> - Note how ASG adjusts instance count automatically | 10/06/2026 | 10/06/2026 | <https://000006.awsstudygroup.com/> |
-| 5 | - Finish the architecture diagram with ALB and ASG <br> - Show the flow User → ALB → Target Group → EC2 Auto Scaling Group <br> - Clean up resources after the lab | 11/06/2026 | 11/06/2026 | <https://000006.awsstudygroup.com/> |
+| 1 | - Build an automated EC2 cost-optimization flow with AWS Lambda <br> - Set up ICMP monitoring with VPC Flow Logs, CloudWatch Metric Filter, CloudWatch Alarm, SNS, and Lambda | 06/06/2026 | 06/06/2026 | <https://000074.awsstudygroup.com/> |
+| 2 | - Practice automating application release on EC2 with the AWS DevOps toolset <br> - Set up a pipeline connecting GitHub, CodePipeline, S3, and CodeDeploy | 08/06/2026 | 08/06/2026 | <https://000017.awsstudygroup.com/> |
+| 3 | - Deploy Grafana on EC2 and connect monitoring data from CloudWatch <br> - Configure VPC, Security Group, IAM Role, and create a dashboard for CPUUtilization | 10/06/2026 | 10/06/2026 | <https://000029.awsstudygroup.com/> |
+| 4 | - Optimize EC2 instance selection by analyzing real resource usage <br> - Deploy CloudWatch Agent to collect memory data and provide input for performance analysis tools | 11/06/2026 | 11/06/2026 | <https://000032.awsstudygroup.com/> |
 
 ### Week 8 results:
 **Overview:**
 
-This week helped me understand how AWS handles scaling and load balancing for applications. I could describe the request flow from a user through ALB to multiple backend instances more clearly than before.
+This week helped me better understand the release process, system monitoring, and cost optimization on AWS. I also learned how to connect multiple services into a complete DevOps flow.
 
-**What I learned:**
+**Knowledge learned:**
 
-* ALB is an important middle layer for web applications.
-* Target Group and Health Check help keep traffic healthy.
-* Launch Template is a standard blueprint for launching instances.
-* Auto Scaling Group makes systems more flexible under changing load.
+* AWS Lambda can help automate responses to unusual conditions.
+* AWS CodePipeline and CodeDeploy reduce manual deployment work.
+* Grafana is useful for visualizing CloudWatch monitoring data.
+* CloudWatch Agent expands metric collection and supports better instance selection.
 
 **Hands-on practice:**
 
-* Creating or simulating a Target Group.
-* Configuring Health Check.
-* Learning the Launch Template.
-* Configuring an Auto Scaling Group.
-* Redrawing the system flow diagram.
+* Set up an application deployment pipeline.
+* Built a monitoring dashboard in Grafana.
+* Configured CloudWatch Agent to collect extra system data.
+* Noted the points to consider when choosing EC2 instance types.

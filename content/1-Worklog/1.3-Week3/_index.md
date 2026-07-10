@@ -7,35 +7,34 @@ pre: " <b> 1.3. </b> "
 ---
 
 ### Objectives for week 3:
-* Understand how AWS organizes networking through Amazon VPC.
-* Learn subnet, routing, gateway, and access-filtering basics.
-* Separate traffic flow for public and private subnets.
-* Get a brief overview of VPC troubleshooting tools.
+* Understand how to deploy VMs and compute services on AWS.
+* Get familiar with supporting services such as EC2 Auto Scaling, EFS/FSx, Lightsail, and MGN.
+* Learn how to set up backup and restore with AWS Backup.
+* Understand the process for Storage Gateway and S3 Static Website deployment.
 
 ### Tasks for this week:
 | Day | Task | Start Date | End Date | Resources |
 | --- | --- | --- | --- | --- |
-| 6 | - Review Amazon VPC basics <br> - Learn CIDR block concepts <br> - Differentiate Default VPC and Custom VPC | 01/05/2026 | 01/05/2026 | <https://000003.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Learn Subnet <br> - Compare Public Subnet and Private Subnet <br> - Record the role of Route Table in AWS networking | 04/05/2026 | 04/05/2026 | <https://000003.awsstudygroup.com/> |
-| 3 | - Learn Internet Gateway and NAT Gateway <br> - Note how each subnet reaches the Internet differently <br> - Keep the NAT Gateway cost in mind | 05/05/2026 | 05/05/2026 | <https://000003.awsstudygroup.com/> |
-| 4 | - Learn Security Group and Network ACL <br> - Compare stateful and stateless behavior <br> - Write simple inbound/outbound rules | 06/05/2026 | 06/05/2026 | <https://000003.awsstudygroup.com/> |
-| 5 | - Review VPC Flow Logs, Reachability Analyzer, and Session Manager <br> - Get a basic look at Site-to-Site VPN <br> - Finish a complete network layer diagram | 07/05/2026 | 07/05/2026 | <https://000003.awsstudygroup.com/> |
+| 1 | - Watch the module 3 theory video on YouTube <br> - Learn how to deploy VMs on AWS <br> - Learn supporting compute services: EC2 Auto Scaling, EFS/FSx, Lightsail, and MGN | 01/05/2026 | 01/05/2026 | <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Set up AWS Backup by creating a Backup Plan and Backup Vault <br> - Use tag-based assignment to automatically include EC2 in the backup rule <br> - Practice data restore and clean up resources after testing | 03/05/2026 | 03/05/2026 | <https://000013.awsstudygroup.com/> |
+| 3 | - Create Storage Gateway <br> - Create File Shares <br> - Connect File Shares from an on-premises machine | 05/05/2026 | 05/05/2026 | <https://000024.awsstudygroup.com/> |
+| 4 | - Learn the Amazon S3 concepts of S3 Bucket and S3 Object <br> - Deploy a static website on S3 and verify it works <br> - Enable CloudFront and practice Versioning, moving objects, and copying objects to another region | 06/05/2026 | 06/05/2026 | <https://000057.awsstudygroup.com/> |
 
 ### Week 3 results:
 **Overview:**
 
-This week gave me a clearer picture of AWS networking and the role of VPC in isolating and routing traffic. I also understood better why public and private subnets are separated.
+This week helped me better understand how AWS supports compute, backup, and storage. I also learned how to deploy a static website on S3 and accelerate it with CloudFront.
 
-**What I learned:**
+**Knowledge learned:**
 
-* VPC is the base for designing your own network on AWS.
-* Route tables, gateways, and subnets define how traffic moves.
-* Security Group and Network ACL serve different filtering purposes.
-* NAT Gateway enables Internet access for private subnet resources, but cost matters.
+* AWS Backup helps standardize backup and recovery.
+* Storage Gateway acts as a bridge between on-premises systems and AWS storage.
+* Amazon S3 can be used both for storage and for hosting a static website.
+* Versioning, moving objects, and copying objects are important for managing data on S3.
 
 **Hands-on practice:**
 
-* Drawing a VPC layout with public and private subnets.
-* Setting basic routing for each subnet.
-* Noting the traffic flow through Internet Gateway and NAT Gateway.
-* Reworking the network layer diagram in a simpler form.
+* Created a plan and vault in AWS Backup.
+* Restored data to verify recovery ability.
+* Configured Storage Gateway and File Shares.
+* Deployed a static website on S3 and checked it through CloudFront.

@@ -7,37 +7,34 @@ pre: " <b> 1.7. </b> "
 ---
 
 ### Objectives for week 7:
-* Understand schema conversion and database migration on AWS.
-* Get familiar with AWS SCT and AWS DMS.
-* Learn the role of source and target databases.
-* Track a migration task from start to finish.
-* Verify the data after migration.
+* Learn how to analyze AWS costs from CUR data.
+* Get familiar with AWS Glue, Athena, and querying data on S3.
+* Practice deploying applications on EC2.
+* Understand how to deploy resources with CloudWatch and CloudFormation.
 
 ### Tasks for this week:
 | Day | Task | Start Date | End Date | Resources |
 | --- | --- | --- | --- | --- |
-| 6 | - Review the Database Schema Conversion & Migration workshop <br> - Identify the goal of the lab <br> - Record the main parts of the migration workflow | 29/05/2026 | 29/05/2026 | <https://000043.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Learn AWS Schema Conversion Tool <br> - Note how SCT supports schema conversion <br> - Identify what should be checked before migration | 01/06/2026 | 01/06/2026 | <https://000043.awsstudygroup.com/> |
-| 3 | - Learn AWS Database Migration Service <br> - Review replication instance, source endpoint, target endpoint, and migration task <br> - Record full load and ongoing replication | 02/06/2026 | 02/06/2026 | <https://000043.awsstudygroup.com/> |
-| 4 | - Configure the source and target databases <br> - Check connectivity between components <br> - Prepare for the migration task | 03/06/2026 | 03/06/2026 | <https://000043.awsstudygroup.com/> |
-| 5 | - Create a migration task <br> - Track the migration progress <br> - Verify the data after migration <br> - Clean up resources after the lab | 04/06/2026 | 04/06/2026 | <https://000043.awsstudygroup.com/> |
+| 1 | - Watch the module 7 theory video on YouTube <br> - Review topics related to cost, monitoring, and logging | 29/05/2026 | 29/05/2026 | <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Analyze AWS cost data with AWS Glue and Amazon Athena <br> - Deploy an S3 bucket, Glue Crawler, Data Catalog, and query CUR data with SQL | 30/05/2026 | 30/05/2026 | <https://000040.awsstudygroup.com/> |
+| 3 | - Practice deploying an application on Amazon EC2 <br> - Configure VPC, create Linux/Windows EC2 instances, manage Security Groups, and set up LAMP/Node.js environments | 31/05/2026 | 31/05/2026 | <https://000004.awsstudygroup.com/> |
+| 4 | - Practice the Amazon CloudWatch Workshop and deploy resources with AWS CloudFormation <br> - Check and fix EC2 deployment errors related to Region and vCPU quota limits | 03/06/2026 | 03/06/2026 | <https://000008.awsstudygroup.com/> |
 
 ### Week 7 results:
 **Overview:**
 
-This week focused on schema conversion and database migration. I gained a better understanding of how AWS SCT and AWS DMS support moving data between database systems.
+This week helped me understand how to combine AWS services for cost analysis, application deployment, and infrastructure automation. I also saw the role of CloudFormation in rebuilding environments.
 
-**What I learned:**
+**Knowledge learned:**
 
-* SCT helps convert schema before migration.
-* DMS moves data from the source to the target.
-* Source endpoint, target endpoint, and replication instance are the main building blocks.
-* Checking the data after migration is a required step.
+* CUR, AWS Glue, and Amazon Athena are useful tools for analyzing AWS cost data.
+* Amazon EC2 is a familiar platform for hosting basic web applications.
+* Amazon CloudWatch helps monitor activity and detect deployment issues.
+* AWS CloudFormation lets me describe infrastructure as code and reduce manual work.
 
 **Hands-on practice:**
 
-* Configuring the source and target databases.
-* Creating endpoints for migration.
-* Creating and monitoring a migration task.
-* Checking the data after transfer.
-* Cleaning up the lab resources.
+* Created a Glue Crawler and queried data with Athena.
+* Deployed an application on EC2.
+* Checked and fixed deployment errors in CloudFormation.
+* Recorded issues related to Region and quota.

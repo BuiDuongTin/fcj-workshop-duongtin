@@ -7,36 +7,31 @@ pre: " <b> 1.11. </b> "
 ---
 
 ### Objectives for week 11:
-* Learn how to manage costs with AWS Budgets.
-* Know how to check billing in AWS.
-* Set alerts when spending goes over a limit.
-* Spot resources that commonly generate costs.
-* Build the habit of cost optimization during labs.
+* Run the Hashop project on AWS and test the main processing flows.
+* Fine-tune the interface so it matches the other team members.
+* Complete the remaining parts of the personal workshop report.
+* Review content and images before finalizing the report.
 
 ### Tasks for this week:
 | Day | Task | Start Date | End Date | Resources |
 | --- | --- | --- | --- | --- |
-| 6 | - Review AWS Budgets <br> - Record the role of Cost Budget <br> - Explain why a budget is useful during AWS practice | 26/06/2026 | 26/06/2026 | <https://000007.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Create or review a Cost Budget <br> - Set a spending threshold <br> - Configure email alerts | 29/06/2026 | 29/06/2026 | <https://000007.awsstudygroup.com/> |
-| 3 | - Learn about Usage Budget, RI Budget, and Savings Plans Budget <br> - Record the use case for each budget type | 30/06/2026 | 30/06/2026 | <https://000007.awsstudygroup.com/> |
-| 4 | - Review resources that often generate costs <br> - Check EC2, RDS, NAT Gateway, Load Balancer, CloudWatch Logs, Elastic IP, and Snapshots | 01/07/2026 | 01/07/2026 | <https://000007.awsstudygroup.com/> |
-| 5 | - Build a cost-optimization checklist <br> - Check the Billing Dashboard <br> - Prepare the final program summary | 02/07/2026 | 02/07/2026 | <https://000007.awsstudygroup.com/> |
+| 1 | - Run the Hashop project on AWS and test the processing flows | 26/06/2026 | 26/06/2026 |  |
+| 2 | - Fine-tune the interface to match the other team members' UI <br> - Discuss with the team and keep improving the project | 27/06/2026 | 27/06/2026 |  |
+| 3 | - Complete the personal workshop report <br> - Check the report timeline and add more images | 01/07/2026 | 01/07/2026 |  |
 
 ### Week 11 results:
 **Overview:**
 
-This week helped me become more proactive about AWS costs. I learned that budget tracking, billing review, and post-lab cleanup are all part of responsible AWS practice.
+This week helped me improve both the running project and the personal documentation. I also had the chance to make the interface more consistent with the team.
 
-**What I learned:**
+**Knowledge learned:**
 
-* AWS Budgets is a helpful alerting tool.
-* Cost, usage, and savings plans are different views of spending.
-* EC2, RDS, NAT Gateway, Load Balancer, and Logs can all create charges if left running.
-* Resource cleanup is part of the lab workflow.
+* Real testing is necessary before finalizing a project.
+* Matching the UI makes the product look more consistent.
+* The personal workshop report should be checked carefully for content and images.
 
 **Hands-on practice:**
 
-* Creating or reviewing a budget.
-* Configuring email alerts.
-* Checking running resources.
-* Writing a cleanup checklist after each lab.
+* Tested the application on AWS.
+* Adjusted the interface based on team feedback.
+* Completed the personal workshop report with more complete content.

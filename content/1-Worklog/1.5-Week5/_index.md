@@ -7,36 +7,38 @@ pre: " <b> 1.5. </b> "
 ---
 
 ### Objectives for week 5:
-* Expand my understanding of EC2 compute and storage.
-* Get familiar with Auto Scaling, backup, and related storage services.
-* Practice AWS Backup, Storage Gateway, and static website hosting.
-* Combine S3 and CloudFront to deliver website content.
+* Learn AWS security and risk management services.
+* Understand how Security Hub and AWS Config track security status.
+* Get familiar with Lambda, tagging, Resource Group, and Permission Boundary.
+* Learn how KMS, CloudTrail, and Athena help monitor and analyze access activity.
 
 ### Tasks for this week:
 | Day | Task | Start Date | End Date | Resources |
 | --- | --- | --- | --- | --- |
-| 6 | - Review EC2, AMI, key pair, EBS, and Instance Store <br> - Note User Data and Metadata <br> - Summarize the key compute concepts | 15/05/2026 | 15/05/2026 | <https://youtu.be/-t5h4N6vfBs?si=GeVdhO9IEDjzzS_D> <br><https://youtu.be/e7XeKdOVq40?si=T3I4pgPoEfVytcU3> <br><https://youtu.be/yAR6QRT3N1k?si=GQghyBwLCpijrDON> <br><https://youtu.be/hKr_TfGP7NY?si=gR2MqaLAFrqL-KBo> <br><https://youtu.be/6IHNDJ85aoQ?si=M0puk6DJpliO7ahf> <br><https://youtu.be/_v_43Wi7zjo?si=qNDVWzKcQFNO2mGh> <br><https://youtu.be/Ew3QRaKJQSA?si=xNvXvD8yFhnSMJby> |
-| 2 | - Learn EC2 Auto Scaling <br> - Review EFS, FSx, Lightsail, and MGN at a high level <br> - Record use cases for each service | 18/05/2026 | 18/05/2026 | <https://youtu.be/bbLcPitXJSY?si=eyVnxvL9ho0LpUYy> <br><https://youtu.be/hFVYG8WqfU0?si=9Px4wmR4IRZxk15n> |
-| 3 | - Deploy AWS Backup <br> - Create a backup plan <br> - Test restore and clean up after the restore | 19/05/2026 | 19/05/2026 | <https://000013.awsstudygroup.com/> |
-| 4 | - Create an S3 bucket for Storage Gateway <br> - Launch EC2 for Storage Gateway <br> - Create the gateway and file share <br> - Remove all resources after the lab | 20/05/2026 | 20/05/2026 | <https://000024.awsstudygroup.com/> |
-| 5 | - Create a bucket and upload sample data <br> - Enable static website hosting <br> - Configure CloudFront and test the website <br> - Delete the website, distribution, and bucket when done | 21/05/2026 | 21/05/2026 | <https://000057.awsstudygroup.com/> |
+| 1 | - Watch the module 5 theory video on YouTube <br> - Build a foundation for IAM, encryption, security monitoring, and multi-account management on AWS | 15/05/2026 | 15/05/2026 | <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Learn how AWS Security Hub and AWS Config work <br> - Enable Security Hub CSPM and review AWS Foundational Security Best Practices, CIS Benchmark, and PCI DSS | 16/05/2026 | 16/05/2026 | <https://000018.awsstudygroup.com/> |
+| 3 | - Build an automated EC2 cost-optimization flow with AWS Lambda <br> - Set up ICMP monitoring using VPC Flow Logs, CloudWatch Metric Filter, CloudWatch Alarm, SNS, and Lambda to stop EC2 automatically | 17/05/2026 | 17/05/2026 | <https://000022.awsstudygroup.com/> |
+| 4 | - Learn and apply tagging strategies to manage AWS resources <br> - Manage EC2 instances across multiple environments and organize them through EC2 Tags <br> - Create Resource Groups based on tag criteria | 18/05/2026 | 18/05/2026 | <https://000027.awsstudygroup.com/> |
+| 5 | - Build tag-based EC2 access control with IAM <br> - Require EC2 to be tagged Environment=Test when created | 19/05/2026 | 19/05/2026 | <https://000028.awsstudygroup.com/> |
+| 6 | - Practice IAM Permission Boundary to manage user permission limits <br> - Configure Permission Boundary for the DoiPho and Dev groups to prevent privilege escalation | 19/05/2026 | 19/05/2026 | <https://000030.awsstudygroup.com/> |
+| 7 | - Practice data encryption with AWS KMS and monitor access events <br> - Use CloudTrail Data Events and Athena to analyze logs | 20/05/2026 | 20/05/2026 | <https://000033.awsstudygroup.com/> |
+| 8 | - Test IAM Role and Condition | 21/05/2026 | 21/05/2026 | <https://000044.awsstudygroup.com/> |
 
 ### Week 5 results:
 **Overview:**
 
-This week connected compute with storage and content delivery. I gained a better picture of how AWS Backup, Storage Gateway, and CloudFront solve very different problems inside one cloud platform.
+This week helped me understand how AWS supports security, access control, and cost optimization. I also learned how to monitor resources by tag and review access logs.
 
-**What I learned:**
+**Knowledge learned:**
 
-* EBS and Instance Store serve different storage needs.
-* Auto Scaling makes systems more flexible under changing load.
-* Backup and restore are essential when working with data.
-* S3 plus CloudFront is a practical way to publish a static website.
+* AWS Security Hub and AWS Config help detect, track, and evaluate security configurations.
+* AWS Lambda can be used to automate responses when the system detects abnormal behavior.
+* Tagging is an important method for organizing and classifying AWS resources.
+* AWS KMS, CloudTrail, and Athena help encrypt data, log activity, and analyze access events.
 
 **Hands-on practice:**
 
-* Creating a backup plan and testing restore.
-* Creating Storage Gateway and a file share.
-* Uploading content to S3 and enabling static website hosting.
-* Configuring CloudFront to deliver the website.
-* Cleaning up resources after the lab.
+* Enabled Security Hub CSPM and reviewed security benchmarks.
+* Used Lambda to stop EC2 based on monitoring conditions.
+* Organized resources with tags and Resource Groups.
+* Practiced Permission Boundary, KMS, and IAM Condition testing.

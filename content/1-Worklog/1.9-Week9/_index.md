@@ -7,36 +7,34 @@ pre: " <b> 1.9. </b> "
 ---
 
 ### Objectives for week 9:
-* Understand the role of monitoring and logging on AWS.
-* Get familiar with Amazon CloudWatch.
-* Track metrics, logs, alarms, and dashboards.
-* Learn how to raise alerts when resources pass a threshold.
+* Choose a project topic and define the implementation direction.
+* Start building the worklog and test content publishing.
+* Design the front end for the project.
+* Get familiar with AWS infrastructure using CDK and TypeScript.
 
 ### Tasks for this week:
 | Day | Task | Start Date | End Date | Resources |
 | --- | --- | --- | --- | --- |
-| 6 | - Review Amazon CloudWatch at a high level <br> - Understand the role of metrics, logs, alarms, and dashboards <br> - Record the most important signals to watch | 12/06/2026 | 12/06/2026 | <https://000008.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Review CloudWatch Metrics <br> - Check CPU, network, disk, and related values <br> - Compare normal and unusual metrics | 15/06/2026 | 15/06/2026 | <https://000008.awsstudygroup.com/> |
-| 3 | - Learn CloudWatch Logs <br> - Observe logs from AWS resources <br> - Note how logs support troubleshooting | 16/06/2026 | 16/06/2026 | <https://000008.awsstudygroup.com/> |
-| 4 | - Create a basic CloudWatch Alarm <br> - Set a threshold for CPU or error conditions <br> - Check the alarm state | 17/06/2026 | 17/06/2026 | <https://000008.awsstudygroup.com/> |
-| 5 | - Create or review a CloudWatch Dashboard <br> - Place important metrics in one view <br> - Clean up resources after the lab | 18/06/2026 | 18/06/2026 | <https://000008.awsstudygroup.com/> |
+| 1 | - Discuss and choose the project topic | 12/06/2026 | 12/06/2026 |  |
+| 2 | - Create weekly worklogs and test deploying the project to GitHub Pages | 14/06/2026 | 14/06/2026 |  |
+| 3 | - Design the front end for the Hashop project | 16/06/2026 | 16/06/2026 |  |
+| 4 | - Deploy AWS infrastructure with IaC using AWS CDK and TypeScript <br> - Create a VPC, a public EC2 instance, a private RDS MariaDB, configure Security Groups, and use UserData to initialize the database | 17/06/2026 | 17/06/2026 | <https://000038.awsstudygroup.com/> |
 
 ### Week 9 results:
 **Overview:**
 
-This week showed me that monitoring is not just about looking at numbers. CloudWatch helped me connect metrics, logs, and alarms into one workflow for understanding how a system behaves.
+This week marked the transition from lab learning to project work. I chose the project topic, started documenting progress, and built the first infrastructure foundation for the project.
 
-**What I learned:**
+**Knowledge learned:**
 
-* Metrics describe the state of a resource.
-* Logs help investigate issues.
-* Alarms let us respond early to unusual conditions.
-* Dashboards provide a single view of the system.
+* Choosing a topic early makes implementation and task allocation clearer.
+* The worklog is important for tracking weekly progress.
+* The front end and infrastructure should be designed together from the start.
+* AWS CDK makes it easier to describe AWS infrastructure as code and redeploy it later.
 
 **Hands-on practice:**
 
-* Reviewing CloudWatch Metrics.
-* Checking CloudWatch Logs.
-* Creating a CloudWatch Alarm.
-* Viewing a CloudWatch Dashboard.
-* Adding a monitoring layer to the architecture diagram.
+* Agreed on the project direction.
+* Created and tested the worklog system.
+* Drafted the front-end layout.
+* Built the initial AWS foundation for the project.

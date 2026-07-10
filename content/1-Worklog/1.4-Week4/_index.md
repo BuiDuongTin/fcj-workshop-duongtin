@@ -7,37 +7,35 @@ pre: " <b> 1.4. </b> "
 ---
 
 ### Objectives for week 4:
-* Understand what EC2 is used for.
-* Learn AMI, instance type, key pair, security group, and EBS basics.
-* Practice launching both Linux and Windows instances.
-* Connect to servers using SSH, RDP, or EC2 Instance Connect.
-* Install a simple web server on EC2.
+* Understand AWS storage services and the role of each service.
+* Get familiar with static websites, CORS, and Storage Gateway.
+* Learn how to deploy Amazon FSx for Windows File Server.
+* Review basic IAM concepts and practice Switch Role.
 
 ### Tasks for this week:
 | Day | Task | Start Date | End Date | Resources |
 | --- | --- | --- | --- | --- |
-| 6 | - Review EC2 basics <br> - Note the role of AMI, instance type, key pair, security group, and EBS <br> - Differentiate Linux and Windows instances | 08/05/2026 | 08/05/2026 | <https://000004.awsstudygroup.com/> <br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 2 | - Prepare the EC2 environment <br> - Create a security group <br> - Double-check the required access rules | 11/05/2026 | 11/05/2026 | <https://000004.awsstudygroup.com/> |
-| 3 | - Launch a Windows Server instance <br> - Connect with Remote Desktop <br> - Record the common connection issues | 12/05/2026 | 12/05/2026 | <https://000004.awsstudygroup.com/> |
-| 4 | - Launch an Amazon Linux instance <br> - Connect with SSH or EC2 Instance Connect <br> - Check the initial server configuration | 13/05/2026 | 13/05/2026 | <https://000004.awsstudygroup.com/> |
-| 5 | - Install a basic web server on EC2 <br> - Test access through the public IP <br> - Update the diagram with EC2, security group, and Internet Gateway | 14/05/2026 | 14/05/2026 | <https://000004.awsstudygroup.com/> |
+| 1 | - Watch the module 4 theory video on YouTube <br> - Learn about AWS storage services <br> - Learn about static websites and CORS | 08/05/2026 | 08/05/2026 | <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
+| 2 | - Create Storage Gateway <br> - Create File Shares <br> - Connect File Shares from an on-premises machine | 09/05/2026 | 09/05/2026 | <https://000024.awsstudygroup.com/> |
+| 3 | - Set up AWS Backup with a Backup Plan and Backup Vault <br> - Use tag-based assignment to include EC2 in the backup rule <br> - Practice restore and clean up resources after testing | 10/05/2026 | 10/05/2026 | <https://000013.awsstudygroup.com/> |
+| 4 | - Deploy Amazon FSx for Windows File Server <br> - Integrate FSx with Microsoft Active Directory <br> - Test SMB from Linux EC2 and verify file synchronization between nodes | 11/05/2026 | 11/05/2026 | <https://000025.awsstudygroup.com/> |
+| 5 | - Learn the core IAM concepts: root account, account ID, group, policy, role <br> - Create an admin group/user, set up an Admin role, create an OperatorUser, and test Switch Role | 13/05/2026 | 13/05/2026 | <https://000002.awsstudygroup.com/> |
 
 ### Week 4 results:
 **Overview:**
 
-This week helped me see EC2 as the core compute layer on AWS. Through the labs, I became more comfortable creating instances, opening access correctly, logging in to servers, and bringing up a simple web service.
+This week helped me better understand AWS storage services and access management. I also learned how to connect storage between AWS and on-premises environments.
 
-**What I learned:**
+**Knowledge learned:**
 
-* EC2 is a flexible virtual server service.
-* AMI and instance type shape the machine you launch.
-* Security Group is essential for controlling inbound access.
-* Linux and Windows instances require different connection methods.
+* Amazon S3, Storage Gateway, and FSx serve different storage needs on AWS.
+* CORS is important when a web application accesses resources from another domain.
+* FSx for Windows File Server fits environments that need SMB and Active Directory compatibility.
+* IAM Role and Switch Role help separate access permissions more clearly.
 
 **Hands-on practice:**
 
-* Creating EC2 instances.
-* Logging in to Windows with RDP.
-* Logging in to Linux with SSH or EC2 Instance Connect.
-* Installing a web server and testing it through the public IP.
-* Cleaning up resources after the lab.
+* Learned about static websites and CORS.
+* Created Storage Gateway and File Shares.
+* Deployed FSx for Windows File Server and tested file sharing.
+* Created IAM users, groups, and roles and practiced switching roles.
