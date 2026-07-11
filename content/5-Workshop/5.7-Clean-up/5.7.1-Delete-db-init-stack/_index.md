@@ -3,7 +3,7 @@ title: "Delete the DB init stack"
 date: 2026-07-04
 weight: 1
 chapter: false
-pre: " <b> 5.6.1. </b> "
+pre: " <b> 5.7.1. </b> "
 ---
 
 Delete the DB init stack first if it still exists.

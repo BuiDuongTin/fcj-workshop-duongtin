@@ -3,7 +3,7 @@ title: "Xóa WAF stack"
 date: 2026-07-04
 weight: 5
 chapter: false
-pre: " <b> 5.6.5. </b> "
+pre: " <b> 5.7.5. </b> "
 ---
 
 Chuyển AWS Console về N. Virginia `us-east-1`, sau đó xóa WAF stack.

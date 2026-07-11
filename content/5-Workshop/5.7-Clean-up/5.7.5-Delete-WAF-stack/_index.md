@@ -3,7 +3,7 @@ title: "Delete the WAF stack"
 date: 2026-07-04
 weight: 5
 chapter: false
-pre: " <b> 5.6.5. </b> "
+pre: " <b> 5.7.5. </b> "
 ---
 
 Switch the AWS Console region to N. Virginia `us-east-1`, then delete the WAF stack.

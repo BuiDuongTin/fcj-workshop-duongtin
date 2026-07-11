@@ -3,7 +3,7 @@ title: "Empty S3 bucket do foundation tạo"
 date: 2026-07-04
 weight: 3
 chapter: false
-pre: " <b> 5.6.3. </b> "
+pre: " <b> 5.7.3. </b> "
 ---
 
 Trước khi xóa foundation stack, cần empty các S3 bucket do stack tạo. CloudFormation không thể tự xóa bucket vẫn còn object bên trong.

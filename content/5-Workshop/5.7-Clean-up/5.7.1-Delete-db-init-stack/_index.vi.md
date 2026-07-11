@@ -3,7 +3,7 @@ title: "Xóa DB init stack"
 date: 2026-07-04
 weight: 1
 chapter: false
-pre: " <b> 5.6.1. </b> "
+pre: " <b> 5.7.1. </b> "
 ---
 
 Xóa DB init stack trước nếu stack này vẫn còn tồn tại.

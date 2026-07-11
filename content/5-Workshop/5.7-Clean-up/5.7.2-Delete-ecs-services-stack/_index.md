@@ -3,7 +3,7 @@ title: "Delete the ECS services stack"
 date: 2026-07-04
 weight: 2
 chapter: false
-pre: " <b> 5.6.2. </b> "
+pre: " <b> 5.7.2. </b> "
 ---
 
 Delete the ECS services stack after the database initialization stack is removed.

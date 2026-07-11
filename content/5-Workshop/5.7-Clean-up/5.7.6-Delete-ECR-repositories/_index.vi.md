@@ -3,7 +3,7 @@ title: "Xóa ECR repositories"
 date: 2026-07-04
 weight: 6
 chapter: false
-pre: " <b> 5.6.6. </b> "
+pre: " <b> 5.7.6. </b> "
 ---
 
 Mở Amazon ECR, vào Private registry rồi chọn Repositories. Xóa toàn bộ HaShop repositories đã tạo trong lab.

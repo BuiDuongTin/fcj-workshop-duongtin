@@ -3,7 +3,7 @@ title: "Xóa foundation stack"
 date: 2026-07-04
 weight: 4
 chapter: false
-pre: " <b> 5.6.4. </b> "
+pre: " <b> 5.7.4. </b> "
 ---
 
 Đợi Stack 02 và Stack 03 xóa hoàn tất, sau đó xóa foundation stack.

@@ -3,7 +3,7 @@ title: "Delete artifact and template buckets"
 date: 2026-07-04
 weight: 7
 chapter: false
-pre: " <b> 5.6.7. </b> "
+pre: " <b> 5.7.7. </b> "
 ---
 
 Delete the artifact bucket and any template buckets created automatically by CloudFormation.

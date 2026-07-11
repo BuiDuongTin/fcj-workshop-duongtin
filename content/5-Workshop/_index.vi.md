@@ -28,6 +28,6 @@ Cung cấp các bước triển khai end-to-end cho Lambda artifact, container i
 
 Kiểm tra frontend, đăng nhập, ECS service, quản lý sản phẩm, luồng đặt hàng, CloudWatch log và metric của WAF.
 
-**5.6:** [Dọn dẹp tài nguyên](5.6-Clean-up/)
+**5.7:** [Dọn dẹp tài nguyên](5.7-Clean-up/)
 
 Xóa các tài nguyên lab theo đúng thứ tự để tránh phát sinh chi phí AWS không cần thiết.

@@ -3,7 +3,7 @@ title: "Delete ECR repositories"
 date: 2026-07-04
 weight: 6
 chapter: false
-pre: " <b> 5.6.6. </b> "
+pre: " <b> 5.7.6. </b> "
 ---
 
 Open Amazon ECR, go to Private registry, then Repositories. Delete all HaShop repositories that were created for the lab.

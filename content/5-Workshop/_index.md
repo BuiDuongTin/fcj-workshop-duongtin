@@ -28,6 +28,6 @@ Provides the end-to-end deployment steps for Lambda artifacts, container images,
 
 Validates the deployed frontend, authentication, ECS services, product management, order flow, CloudWatch logs, and WAF metrics.
 
-**5.6:** [Clean-up](5.6-Clean-up/)
+**5.7:** [Clean-up](5.7-Clean-up/)
 
 Removes the lab resources in the correct order to avoid unnecessary AWS costs.
